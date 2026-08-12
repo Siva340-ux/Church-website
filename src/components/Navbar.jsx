@@ -21,7 +21,7 @@ const Navbar = () => {
             {/* Top Logo Header Section */}
             <div style={{ width: '100%', backgroundColor: '#ffffff', padding: '12px 0', borderBottom: '1px solid #f3f4f6', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px', textAlign: 'center' }}>
-                    <div style={{ width: '50px', height: '50px' }}>
+                    <div style={{ width: '70px', height: '50px' }}>
                         <img src={logo} alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
 
@@ -41,7 +41,7 @@ const Navbar = () => {
                             fontSize: '10px',
                             letterSpacing: '2.5px',
                             color: '#d4af37',
-                            fontWeight: 700,
+                            fontWeight: 500,
                             textTransform: 'uppercase',
                             margin: '3px 0 0 0',
                             fontFamily: 'sans-serif'

@@ -318,7 +318,7 @@ const Testimonies = () => {
                     description="After 42 years of honest and upright service in the Church such as College Registrar, Professor, SIU Education Director, College Principal and as Director of Public Affairs & Religious Liberty at SUD, Hosur, after his retirement in May 2015, he is called to be associated with the International Human Rights Association ® as its International Director; connected with Universal Institute of Human Rights Education, Anti-Corruption and he is utilized by the International Accreditation Association, Texas, USA."
                 />
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '40px', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '40px', marginBottom: "40px", flexWrap: 'wrap' }}>
                 <TestimonyCard
                     image={anbiah}
                     name="Pr. J. Jothi Anbiah"

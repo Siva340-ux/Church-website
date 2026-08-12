@@ -27,7 +27,7 @@ const DescriptiveCard = ({ image, name, title, date, quote, description }) => {
                 <img
                     src={image}
                     alt={name}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', objectFit: "contain" }}
                 />
             </div>
 

@@ -96,52 +96,17 @@ const ProducerAlbum = () => {
 
             {/* Hero Banner Section */}
             <div style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(${bgImage})`,
+                backgroundImage: ` url(${bgImage})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 color: '#ffffff',
                 padding: '60px 20px',
                 textAlign: 'center',
-                borderBottom: '8px solid #e6b800'
+                borderBottom: '8px solid #e6b800',
+                width: '1486.07px',
+                height: '600px',
             }}>
-                <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-                    <p style={{ fontSize: '13px', letterSpacing: '1px', color: '#d1d5db', textTransform: 'uppercase', marginBottom: '12px', lineHeight: '1.5' }}>
-                        FOLLOWING THE MONUMENTAL SUCCESS OF THE ALBUM "THE HOLY SABBATH", C. JAMES WHITE RETURNS WITH AN EVEN MORE AMBITIOUS GLOBAL PRODUCTION
-                    </p>
-                    <p style={{ fontSize: '13px', fontWeight: 'bold', letterSpacing: '1px', color: '#4ade80', textTransform: 'uppercase', marginBottom: '30px' }}>
-                        (A MULTILINGUAL PRODUCTION DEDICATED TO GLOBAL PEACE AND HARMONY)
-                    </p>
 
-                    <p style={{ fontSize: '14px', fontWeight: 'bold', color: '#facc15', letterSpacing: '1px', marginBottom: '8px' }}>
-                        THE ONLY OPEN PLATFORM FOR YOU TO JOIN & PARTICIPATE IN
-                    </p>
-
-                    <h1 style={{ fontSize: '28px', fontWeight: '900', color: '#facc15', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '30px', lineHeight: '1.2' }}>
-                        WORLD'S 1ST & NO.1 MEGA AUDIO/VISUAL MULTILINGUAL ALBUM
-                    </h1>
-
-                    <div style={{ margin: '30px 0', padding: '20px', backgroundColor: 'rgba(30, 58, 138, 0.5)', borderRadius: '12px', border: '1px solid rgba(250, 204, 21, 0.4)', display: 'inline-block' }}>
-                        <h2 style={{ fontSize: '28px', fontFamily: 'serif', color: '#fde047', fontWeight: 'bold', margin: 0 }}>
-                            "THE UNIVERSAL ROYAL LAW OF LOVE"
-                        </h2>
-                        <p style={{ fontSize: '13px', color: '#93c5fd', marginTop: '6px', fontStyle: 'italic', margin: '6px 0 0 0' }}>
-                            (Established Upon the Eternal Foundation of the Ten Commandments)
-                        </p>
-                    </div>
-
-                    <p style={{ fontSize: '13px', color: '#e5e7eb', maxWidth: '750px', margin: '0 auto 30px auto', lineHeight: '1.6' }}>
-                        "YOU ARE MOST CORDIALLY INVITED TO JOIN, PARTICIPATE, AND SHOWCASE YOUR TALENTS IN THIS SPECIAL PROJECT DEDICATED TO PROMOTING PEACE AND HARMONY THROUGHOUT THE WORLD."
-                    </p>
-
-                    <div>
-                        <Link
-                            to="/participant-registration"
-                            style={{ display: 'inline-block', backgroundColor: '#e6b800', color: '#000000', fontWeight: '900', padding: '14px 32px', borderRadius: '50px', fontSize: '14px', textDecoration: 'none', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.3)', transition: 'transform 0.2s' }}
-                        >
-                            CLICK TO JOIN & PARTICIPATE
-                        </Link>
-                    </div>
-                </div>
             </div>
 
             {/* Main Body Content */}
