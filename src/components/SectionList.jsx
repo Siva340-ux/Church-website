@@ -7,7 +7,7 @@ const SectionsIndexComponent = () => {
 
                 {/* Left Card: Section 8 */}
                 <div style={{ flex: '1', minWidth: '300px', maxWidth: '450px', backgroundColor: '#fef3c7', borderRadius: '24px', padding: '40px 30px', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', border: '1px solid #fde68a' }}>
-                    <h3 style={{ fontSize: '18px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                         SECTION 8 - THE LAW OF GOD
                     </h3>
                     <ul style={{ listStyle: 'none', padding: '0', margin: '0', display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '13px', lineHeight: '1.6', color: '#374151' }}>
@@ -26,7 +26,7 @@ const SectionsIndexComponent = () => {
 
                 {/* Right Card: Section 9 */}
                 <div style={{ flex: '1', minWidth: '300px', maxWidth: '450px', backgroundColor: '#fef3c7', borderRadius: '24px', padding: '40px 30px', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', border: '1px solid #fde68a' }}>
-                    <h3 style={{ fontSize: '18px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                    <h3 style={{ fontSize: '18px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase', fontFamily: "Anastasia" }}>
                         SECTION 9 - THE SABBATH
                     </h3>
                     <ul style={{ listStyle: 'none', padding: '0', margin: '0', display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '13px', lineHeight: '1.6', color: '#374151' }}>

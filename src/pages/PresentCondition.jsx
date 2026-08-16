@@ -48,7 +48,7 @@ const PresentCondition = () => {
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px', fontFamily: 'sans-serif', textAlign: 'center' }}>
 
                 {/* Section Heading */}
-                <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '25px' }}>
+                <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '25px' }}>
                     Condition of the Present World
                 </h2>
 
@@ -67,7 +67,7 @@ const PresentCondition = () => {
                 </div>
 
                 {/* Themes & Issues Explored Section Heading */}
-                <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '40px' }}>
+                <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '40px' }}>
                     Themes & Issues Explored in the Album
                 </h2>
 

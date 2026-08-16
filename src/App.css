@@ -185,3 +185,25 @@
     border-right-color: var(--border);
   }
 }
+
+@font-face {
+  font-family: "Anastasia";
+  src: url("./fonts/Anastasia Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("./fonts/centurygothic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.anas {
+  font-family: "Anastasia";
+}
+
+.cengoth {
+  font-family: "Century Gothic";
+}

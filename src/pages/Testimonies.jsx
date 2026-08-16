@@ -33,14 +33,14 @@ const Testimonies = () => {
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px', fontFamily: 'sans-serif' }}>
                 {/* Header Section */}
                 <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-                    <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
+                    <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
                         Voices of Transformation & Grace
                     </h2>
                     <p style={{ maxWidth: '850px', margin: '0 auto 40px auto', fontSize: '13px', lineHeight: '1.8', color: '#374151' }}>
                         We humbly share a few testimonies from individuals whose lives have been deeply touched through "The Holy Sabbath", "The Universal Royal Law of Love", and the ongoing service of this mission. These personal reflections stand as a powerful witness to the transforming impact of faith, the strength of love, and the work of divine grace—bringing hope, renewal, and spiritual awakening to many.
                     </p>
 
-                    <h3 style={{ fontSize: '22px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
+                    <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
                         Views & Opinion on Audio Productions
                     </h3>
                     <p style={{ fontSize: '13px', color: '#374151', marginBottom: '8px' }}>

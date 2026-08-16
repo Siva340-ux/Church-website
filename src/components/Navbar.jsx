@@ -60,9 +60,9 @@ const Navbar = () => {
                             <Link
                                 to={item.path}
                                 style={{
-                                    color: '#000000',
+                                    color: 'white',
                                     fontSize: '11px',
-                                    fontWeight: 900,
+                                    fontWeight: 500,
                                     letterSpacing: '0.5px',
                                     textDecoration: 'none',
                                     paddingBottom: '3px',
@@ -74,7 +74,7 @@ const Navbar = () => {
                                     e.target.style.borderColor = '#ffffff';
                                 }}
                                 onMouseOut={(e) => {
-                                    e.target.style.color = '#000000';
+                                    e.target.style.color = 'white';
                                     e.target.style.borderColor = 'transparent';
                                 }}
                             >

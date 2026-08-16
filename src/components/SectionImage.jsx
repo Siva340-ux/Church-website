@@ -5,7 +5,7 @@ import Jesus3 from "../assets/jesus3.png"
 const ComeOutOfHerSection = () => {
     return (
         <section style={{ marginBottom: '60px', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+            <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                 "COME OUT OF HER, MY PEOPLE": GOD'S FINAL CALL TO REFORMATION:
             </h2>
 

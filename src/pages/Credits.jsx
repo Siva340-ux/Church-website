@@ -64,7 +64,7 @@ const Credits = () => {
             <Backdrop title="Credit & Sincere Thanks" />
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px', fontFamily: 'sans-serif', textAlign: 'center' }}>
                 {/* Heading */}
-                <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                     Our Gratitude
                 </h2>
 

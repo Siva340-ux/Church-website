@@ -50,7 +50,7 @@ const WhyNeeded = () => {
             <Backdrop title="Why the Album is Needed?" />
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px', textAlign: 'center', fontFamily: 'sans-serif' }}>
                 {/* Section Heading */}
-                <h2 style={{ fontSize: '24px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '24px' }}>
+                <h2 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '24px' }}>
                     A Timely Message for a Troubled World
                 </h2>
 
@@ -94,7 +94,7 @@ const WhyNeeded = () => {
                         />
                     </div>
                     <div style={{ flex: '1 1 450px' }}>
-                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', textTransform: 'uppercase', fontFamily: 'serif' }}>
+                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', textTransform: 'uppercase', fontFamily: "Anastasia" }}>
                             The Power of Music to Shape Lives
                         </h3>
                         <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '15px' }}>
@@ -130,7 +130,7 @@ const WhyNeeded = () => {
             <div style={{ backgroundColor: '#fef9e7', borderTop: '1px solid #fde68a', borderBottom: '1px solid #fde68a', padding: '60px 20px', marginBottom: '80px' }}>
                 <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: '40px', flexWrap: 'wrap' }}>
                     <div style={{ flex: '1 1 400px' }}>
-                        <h3 style={{ fontSize: '24px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', lineHeight: '1.3' }}>
+                        <h3 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', lineHeight: '1.3' }}>
                             Teaching Truth Through Song
                         </h3>
                     </div>
@@ -159,7 +159,7 @@ const WhyNeeded = () => {
                         />
                     </div>
                     <div style={{ flex: '1 1 450px' }}>
-                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', textTransform: 'uppercase', fontFamily: 'serif' }}>
+                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', textTransform: 'uppercase', fontFamily: "Anastasia" }}>
                             The Power of Music to Shape Lives
                         </h3>
                         <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '15px' }}>
@@ -192,7 +192,7 @@ const WhyNeeded = () => {
             </div>
             {/* 10. WhyNeeded Component (The Universal Royal Law of Love - Dual Cards) */}
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px', textAlign: 'center' }}>
-                <h3 style={{ fontSize: '22px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
+                <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
                     The Universal Royal Law of Love
                 </h3>
                 <p style={{ fontSize: '12px', color: '#4b5563', marginBottom: '40px', fontStyle: 'italic' }}>

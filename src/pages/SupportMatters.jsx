@@ -1,5 +1,7 @@
 import React from 'react';
 import Backdrop from '../components/Backdrop';
+import w1 from '../assets/scanner/w1.jpg';
+import w2 from '../assets/scanner/w2.png';
 
 const SupportMatters = () => {
     return (
@@ -9,7 +11,7 @@ const SupportMatters = () => {
 
                 {/* Section 1: Intro Text */}
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-                    <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '25px' }}>
+                    <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '25px' }}>
                         Be Part of a Meaningful Mission
                     </h2>
                     <p style={{ maxWidth: '850px', margin: '0 auto 15px auto', fontSize: '13px', lineHeight: '1.8', color: '#374151' }}>
@@ -98,7 +100,7 @@ const SupportMatters = () => {
 
                 {/* Section 4: Get Involved Banner */}
                 <div style={{ backgroundColor: '#ffb703', borderRadius: '24px', padding: '40px 20px', textAlign: 'center', marginBottom: '60px' }}>
-                    <h3 style={{ fontSize: '22px', fontFamily: 'serif', fontWeight: '900', color: '#78350f', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
+                    <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#78350f', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
                         Get Involved
                     </h3>
                     <p style={{ maxWidth: '750px', margin: '0 auto', fontSize: '13px', color: '#374151', lineHeight: '1.6' }}>
@@ -108,7 +110,7 @@ const SupportMatters = () => {
 
                 {/* Section 5: How You Can Support Grid */}
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-                    <h3 style={{ fontSize: '22px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
+                    <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '15px' }}>
                         How You Can Support
                     </h3>
                     <p style={{ fontSize: '13px', color: '#374151', marginBottom: '30px' }}>
@@ -145,7 +147,7 @@ const SupportMatters = () => {
 
                 {/* Section 6: Scan & Donate */}
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-                    <h3 style={{ fontSize: '22px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '40px' }}>
+                    <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '40px' }}>
                         Scan & Donate
                     </h3>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', flexWrap: 'wrap', alignItems: 'flex-start' }}>
@@ -159,7 +161,7 @@ const SupportMatters = () => {
                                 <span style={{ fontSize: '11px', fontWeight: 'bold', color: '#b45309' }}>STATE BANK OF INDIA</span>
                             </div>
                             <div style={{ width: '180px', height: '180px', margin: '0 auto 15px auto', backgroundColor: '#f3f4f6', borderRadius: '12px', overflow: 'hidden' }}>
-                                <img src="https://picsum.photos/seed/qrcode1/180/180" alt="QR Code 1" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                <img src={w1} alt="QR Code 1" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
                             <p style={{ fontSize: '11px', color: '#6b7280', wordBreak: 'break-all' }}>UPI ID: 326783046725799@cnrb</p>
                         </div>
@@ -196,7 +198,7 @@ const SupportMatters = () => {
                                 <span style={{ fontSize: '11px', fontWeight: 'bold', color: '#b45309' }}>CANARA BANK</span>
                             </div>
                             <div style={{ width: '180px', height: '180px', margin: '0 auto 15px auto', backgroundColor: '#f3f4f6', borderRadius: '12px', overflow: 'hidden' }}>
-                                <img src="https://picsum.photos/seed/qrcode2/180/180" alt="QR Code 2" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                <img src={w2} alt="QR Code 2" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
                             <p style={{ fontSize: '11px', color: '#6b7280', wordBreak: 'break-all' }}>UPI ID: godcaresministries@sbi</p>
                         </div>
@@ -206,10 +208,10 @@ const SupportMatters = () => {
 
                 {/* Section 7: For Foreign Donors */}
                 <div style={{ backgroundColor: '#ffb703', borderRadius: '24px', padding: '40px 30px', maxWidth: '850px', margin: '0 auto', textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '20px', fontFamily: 'serif', fontWeight: '900', color: '#78350f', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '10px' }}>
+                    <h3 style={{ fontSize: '30px', fontFamily: 'Anastasia', fontWeight: '900', color: '#f8f6f5ff', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '10px' }}>
                         For Foreign Donors
                     </h3>
-                    <p style={{ fontSize: '12px', color: '#374151', marginBottom: '25px' }}>
+                    <p style={{ fontSize: '12px', color: '#fbfdffff', marginBottom: '25px' }}>
                         Designated FCRA Receipt-cum-Utilisation Account
                     </p>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', textAlign: 'left', maxWidth: '650px', margin: '0 auto' }}>
@@ -224,8 +226,8 @@ const SupportMatters = () => {
                             "Branch Address: State Bank of India, New Delhi Main Branch, FCRA Cell, 11 Sansad Marg New Delhi - 110001, India"
                         ].map((detail, idx) => (
                             <div key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                                <span style={{ color: '#78350f', fontSize: '12px', fontWeight: 'bold', marginTop: '2px' }}>&#10003;</span>
-                                <span style={{ fontSize: '13px', color: '#374151', lineHeight: '1.5' }}>{detail}</span>
+                                <span style={{ color: '#fcfbfaff', fontSize: '12px', fontWeight: 'bold', marginTop: '2px' }}>&#10003;</span>
+                                <span style={{ fontSize: '13px', color: '#f6f7f9ff', lineHeight: '1.5' }}>{detail}</span>
                             </div>
                         ))}
                     </div>

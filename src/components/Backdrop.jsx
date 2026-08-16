@@ -20,7 +20,7 @@ export default function Backdrop({ title }) {
             }}></div>
 
             <div style={{ position: 'relative', zIndex: 2 }}>
-                <h1 style={{ fontSize: '36px', fontFamily: 'serif', fontWeight: '900', color: '#ffffff', letterSpacing: '2px', textTransform: 'uppercase', textShadow: '2px 2px 6px rgba(0,0,0,0.4)', marginBottom: '20px' }}>
+                <h1 style={{ fontSize: '36px', fontFamily: "Anastasia", fontWeight: '900', color: '#ffffff', letterSpacing: '2px', textTransform: 'uppercase', textShadow: '2px 2px 6px rgba(0,0,0,0.4)', marginBottom: '20px' }}>
                     {title}
                 </h1>
 

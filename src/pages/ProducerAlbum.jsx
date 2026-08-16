@@ -111,11 +111,14 @@ const ProducerAlbum = () => {
 
             {/* Main Body Content */}
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '50px 20px', textAlign: 'center' }}>
-                <p style={{ fontSize: '13px', fontWeight: 'bold', color: '#374151', letterSpacing: '0.5px', marginBottom: '40px', textTransform: 'uppercase' }}>
+                <p style={{ fontSize: '30px', fontWeight: 'bold', color: 'black', lineHeight: "40px", letterSpacing: '0.5px', marginBottom: '40px', textTransform: 'uppercase', fontFamily: "Poiret One ", width: "100%" }}>
                     CLICK ALL THE LINKS PROVIDED ABOVE TO DISCOVER, ENROLL, JOIN, MAKE PAYMENTS, AND PARTICIPATE IN THE AUDIO/VISUAL ALBUM.
                 </p>
 
-                <h2 style={{ fontSize: '24px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '40px', textTransform: 'uppercase' }}>
+                <h2 style={{
+                    fontSize: '34px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '40px', textTransform: 'uppercase', fontFamily: "Anastasia", display: "flex", width: "565px",
+                    letterSpacing: "2px"
+                }}>
                     THE FIRST PRODUCTION OF THE PRODUCER
                 </h2>
 
@@ -130,14 +133,14 @@ const ProducerAlbum = () => {
                     </div>
 
                     <div style={{ flexGrow: 1 }}>
-                        <p style={{ fontSize: '11px', fontWeight: 'bold', color: '#6b7280', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '6px' }}>
+                        <p style={{ fontSize: '18px', fontWeight: 'bold', color: '#000000', textTransform: 'uppercase', marginBottom: '6px' }}>
                             PRODUCED IN LOVING SERVICE FOR THE UNITY OF HUMANITY
                         </p>
-                        <h3 style={{ fontSize: '22px', fontWeight: 'bold', color: '#000000', marginBottom: '15px' }}>
+                        <h3 style={{ fontSize: '19px', fontWeight: 'bold', color: '#000000', marginBottom: '15px' }}>
                             C. JAMES WHITE
                         </h3>
 
-                        <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', marginBottom: '20px' }}>
+                        <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', marginBottom: '20px' }} >
                             This project is a spiritual, musical, and visual movement that reinterprets timeless moral truths through powerful storytelling, music, and global collaboration.
                         </p>
 
@@ -154,7 +157,7 @@ const ProducerAlbum = () => {
 
                 {/* PURPOSE AND MISSION SECTION (Placed directly below founder section) */}
                 <div style={{ marginTop: '70px', textAlign: 'left', backgroundColor: '#fef3c7', border: '1px solid #fde68a', borderRadius: '16px', padding: '40px' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '25px', textTransform: 'uppercase', textAlign: 'center' }}>
+                    <h2 style={{ fontSize: '40px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '25px', textTransform: 'uppercase', textAlign: 'center', fontFamily: "Anastasia" }} >
                         PURPOSE AND MISSION OF THE ALBUMS
                     </h2>
                     <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '15px' }}>
@@ -180,10 +183,10 @@ const ProducerAlbum = () => {
                             <img src={ten} alt="The Ten Commandments" style={{ width: '100%', height: 'auto', display: 'block' }} />
                         </div>
                         <div style={{ flexGrow: 1, textAlign: 'center' }}>
-                            <h2 style={{ fontSize: '26px', fontFamily: 'serif', color: '#ca8a04', fontWeight: 'bold', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                            <h2 style={{ fontSize: '26px', fontFamily: 'serif', color: '#ca8a04', fontWeight: 'bold', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '1px', fontFamily: "Anastasia" }}>
                                 "THE HOLY SABBATH"
                             </h2>
-                            <h3 style={{ fontSize: '18px', fontWeight: 'bold', color: '#d97706', marginBottom: '20px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                            <h3 style={{ fontSize: '18px', fontWeight: 'bold', color: '#d97706', marginBottom: '20px', textTransform: 'uppercase', letterSpacing: '0.5px', fontFamily: "Anastasia" }}>
                                 (4th OF THE TEN COMMANDMENTS)
                             </h3>
                             <div style={{ padding: '20px', backgroundColor: '#fffbeb', borderRadius: '12px', border: '1px solid #fef3c7' }}>
@@ -227,7 +230,7 @@ const ProducerAlbum = () => {
 
                 {/* SABBATH: THE SEAL OF THE LIVING GOD SECTION */}
                 <div style={{ marginTop: '80px', textAlign: 'left', borderTop: '2px solid #f3f4f6', paddingTop: '50px' }}>
-                    <h2 style={{ fontSize: '24px', fontFamily: 'serif', color: '#ca8a04', fontWeight: 'bold', marginBottom: '30px', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                    <h2 style={{ fontSize: '24px', fontFamily: 'serif', color: '#ca8a04', fontWeight: 'bold', marginBottom: '30px', textTransform: 'uppercase', letterSpacing: '1px', fontFamily: "Anastasia" }}>
                         SABBATH: THE SEAL OF THE LIVING GOD.
                     </h2>
 
@@ -287,20 +290,21 @@ const ProducerAlbum = () => {
                 </div>
                 {/* FAMILY & M. JOHN PETER SECTIONS */}
                 <div style={{ marginTop: '70px', textAlign: 'center' }}>
-                    <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '35px', textTransform: 'uppercase', lineHeight: '1.4', maxWidth: '850px', marginLeft: 'auto', marginRight: 'auto' }}>
+                    <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '35px', textTransform: 'uppercase', lineHeight: '1.4', maxWidth: '850px', marginLeft: 'auto', marginRight: 'auto', fontFamily: "Anastasia" }}>
                         THE FAMILY BEHIND GOD CARES MINISTRIES CONTINUES TO SUPPORT ITS MISSION AND PRODUCTIONS THROUGH FAITHFUL SACRIFICE AND DEDICATED COMMITMENT.
                     </h2>
 
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '50px' }}>
+                    <div style={{ display: 'flex', flexDirection: "column", marginBottom: '50px' }}>
                         <div style={{ width: '450px', height: '280px', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', boxShadow: '0 4px 12px rgba(0,0,0,0.08)', marginBottom: '12px' }}>
                             <img src={familyPhoto} alt="Sharon Doris Angel, J. C. James White, Vijaya James White & Stanley Dev Adams. J" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
-                        <p style={{ fontSize: '11px', color: '#4b5563', fontStyle: 'italic', letterSpacing: '0.3px' }}>
+                        <div style={{ display: "flex", justifyContent: "flex-start" }}>                        <p style={{ fontSize: '11px', color: '#4b5563', fontStyle: 'italic', letterSpacing: '0.3px' }}>
                             From Left to Right: <strong style={{ color: '#1f2937' }}>Sharon Doris Angel, J. C. James White, Vijaya James White & Stanley Dev Adams. J</strong>
-                        </p>
+                        </p></div>
+
                     </div>
 
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '30px', textTransform: 'uppercase', textAlign: 'left' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '30px', textTransform: 'uppercase', textAlign: 'left' }}>
                         M. JOHN PETER, A GIFTED AND TALENTED LYRICIST AND MUSIC DIRECTOR.
                     </h2>
 
@@ -320,8 +324,151 @@ const ProducerAlbum = () => {
                 </div>
 
                 {/* 10 TOPICS COVERED SECTION */}
+
+
+
+
+                {/* M. JOHN PETER & SINGERS SECTION */}
+                <div style={{ marginTop: '70px' }}>
+
+
+                    <h2 style={{ fontSize: '18px', color: '#ca8a04', fontFamily: "Anastasia", fontWeight: 'bold', marginBottom: '30px' }}>
+                        M. John Peter brought together more than 14 top singers from the industry to add glory, excellence, and spiritual richness to the album "The Holy Sabbath."
+                    </h2>
+
+                    {/* Singers Grid with Imported Images */}
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: '25px 15px', padding: '20px 20px 30px 20px', maxWidth: '1400px', margin: '0 auto' }}>
+                        {singers.map((singer, index) => (
+                            <div key={index} style={{ position: 'relative', backgroundColor: '#ffffff', border: '2px solid #facc15', borderRadius: '20px', padding: '10px 10px 22px 10px', textAlign: 'center', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}>
+                                <div style={{ width: '100%', aspectRatio: '1 / 1', borderRadius: '15px', overflow: 'hidden', backgroundColor: '#e5e7eb' }}>
+                                    <img src={singer.img} alt={singer.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                </div>
+                                <div style={{ position: 'absolute', bottom: '-12px', left: '50%', transform: 'translateX(-50%)', backgroundColor: '#facc15', padding: '4px 12px', borderRadius: '15px', whiteSpace: 'nowrap', boxShadow: '0 2px 4px rgba(0,0,0,0.15)', border: '2px solid #ffffff', zIndex: 2 }}>
+                                    <p style={{ fontSize: '11px', fontWeight: 'bold', color: '#1f2937', margin: 0, fontFamily: 'sans-serif', letterSpacing: '0.5px' }}>{singer.name}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* "THE HOLY SABBATH" ALBUM COVER & AUDIO CD PRESENTATION SECTION (Text Left, Images Right) */}
+                <div
+                    style={{
+                        marginTop: '70px',
+                        display: 'grid',
+                        gridTemplateColumns: '1fr 1fr 1fr',
+                        backgroundColor: '#fef3c7',
+                        border: '1px solid #fde68a',
+                        borderRadius: '20px',
+                        padding: '40px',
+                        textAlign: 'left',
+                        gap: '30px',
+                        boxShadow: '0 10px 25px -5px rgba(251, 191, 36, 0.2)',
+                        alignItems: 'center',
+                    }}
+                >
+                    {/* Column 1 - Title */}
+                    <div>
+                        <h2
+                            style={{
+                                fontSize: '32px',
+                                fontFamily: 'Anastasia',
+                                color: '#b45309',
+                                fontWeight: 'bold',
+                                marginBottom: '20px',
+                                letterSpacing: '1px',
+                                textTransform: 'uppercase',
+                                lineHeight: '1.2',
+                            }}
+                        >
+                            "THE HOLY SABBATH"
+                        </h2>
+                        <div>
+                            <p
+                                style={{
+                                    fontSize: '15px',
+                                    color: '#374151',
+                                    lineHeight: '1.8',
+                                    margin: 0,
+                                }}
+                            >
+                                A soul-lifting audio album presenting the divine significance
+                                of the Sabbath through Scripture, song, and inspiring messages.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Column 2 - Description */}
+                    <div
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            gap: '20px',
+                        }}
+                    >
+                        <div
+
+                            style={{
+                                width: '320px',
+                                borderRadius: '12px',
+                                overflow: 'hidden',
+                                border: '1px solid #d1d5db',
+                                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+                                backgroundColor: '#ffffff',
+                            }}
+                        >
+                            <img
+                                src={HolySabbath}
+                                alt="The Holy Sabbath Audio CD"
+                                style={{
+                                    width: '100%',
+                                    height: 'auto',
+                                    display: 'block',
+                                }}
+                            />
+                        </div>
+                    </div>
+
+
+                    {/* Column 3 - Images */}
+                    <div
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            gap: '20px',
+                        }}
+                    >
+                        {/* Album Cover */}
+                        <div
+
+                            style={{
+                                width: '150px',
+                                borderRadius: '50%',
+                                overflow: 'hidden',
+                                border: '1px solid #d1d5db',
+                                boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+                                backgroundColor: '#ffffff',
+                            }}
+                        >
+                            <img
+
+                                src={AudioCD}
+                                alt="The Holy Sabbath Cover"
+                                style={{
+                                    width: '100%',
+                                    height: 'auto',
+                                    display: 'block',
+                                }}
+                            />
+                        </div>
+
+                        {/* Audio CD */}
+                    </div>
+                </div>
                 <div style={{ marginTop: '80px' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '30px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '30px', textTransform: 'uppercase' }}>
                         THE 10 TOPICS COVERED
                     </h2>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '15px' }}>
@@ -333,7 +480,6 @@ const ProducerAlbum = () => {
                         ))}
                     </div>
                 </div>
-
                 {/* NEW IMAGE PLACEMENT BELOW THE 10 TOPICS COVERED */}
                 <div style={{ marginTop: '50px', textAlign: 'center' }}>
                     <div style={{ maxWidth: '100%', borderRadius: '12px', overflow: 'hidden', border: '1px solid #d1d5db', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
@@ -342,62 +488,10 @@ const ProducerAlbum = () => {
                 </div>
 
 
-
-                {/* M. JOHN PETER & SINGERS SECTION */}
-                <div style={{ marginTop: '70px' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '15px', textTransform: 'uppercase' }}>
-                        M. John Peter, a Gifted and Talented Lyricist and Music Director
-                    </h2>
-                    <p style={{ fontSize: '14px', color: '#374151', lineHeight: '1.7', maxWidth: '800px', margin: '0 auto 40px auto' }}>
-                        The vision of presenting the importance of the Holy Sabbath by C. James White came into fulfilment through the association of M. John Peter, whose creative excellence and committed efforts greatly enriched the production.
-                    </p>
-
-                    <h3 style={{ fontSize: '18px', fontWeight: 'bold', color: '#1f2937', marginBottom: '30px' }}>
-                        M. John Peter brought together more than 14 top singers from the industry to add glory, excellence, and spiritual richness to the album "The Holy Sabbath."
-                    </h3>
-
-                    {/* Singers Grid with Imported Images */}
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: '20px' }}>
-                        {singers.map((singer, index) => (
-                            <div key={index} style={{ backgroundColor: '#f9fafb', border: '1px solid #e5e7eb', borderRadius: '10px', padding: '15px', textAlign: 'center' }}>
-                                <div style={{ width: '80px', height: '80px', borderRadius: '50%', backgroundColor: '#e5e7eb', margin: '0 auto 10px auto', overflow: 'hidden', border: '1px solid #d1d5db' }}>
-                                    <img src={singer.img} alt={singer.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                                </div>
-                                <p style={{ fontSize: '12px', fontWeight: 'bold', color: '#1f2937', margin: 0 }}>{singer.name}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
-                {/* "THE HOLY SABBATH" ALBUM COVER & AUDIO CD PRESENTATION SECTION (Text Left, Images Right) */}
-                <div style={{ marginTop: '70px', backgroundColor: '#fef3c7', border: '1px solid #fde68a', borderRadius: '20px', padding: '40px', textAlign: 'left', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: '30px', flexWrap: 'wrap', boxShadow: '0 10px 25px -5px rgba(251, 191, 36, 0.2)' }}>
-                    {/* Left Column: Title and Description (Text on Left) */}
-                    <div style={{ flex: '1 1 250px', maxWidth: '320px' }}>
-                        <h2 style={{ fontSize: '32px', fontFamily: 'serif', color: '#b45309', fontWeight: 'bold', marginBottom: '20px', letterSpacing: '1px', textTransform: 'uppercase', lineHeight: '1.2' }}>
-                            "THE HOLY SABBATH"
-                        </h2>
-                        <p style={{ fontSize: '15px', color: '#374151', lineHeight: '1.8', margin: 0 }}>
-                            A soul-lifting audio album presenting the divine significance of the Sabbath through Scripture, song, and inspiring messages.
-                        </p>
-                    </div>
-
-                    {/* Right Column: Images Side-by-Side (Images on Right) */}
-                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '25px', flexWrap: 'nowrap' }}>
-                        {/* Album Cover Mockup */}
-                        <div style={{ width: '360px', borderRadius: '12px', overflow: 'hidden', border: '1px solid #d1d5db', boxShadow: '0 4px 12px rgba(0,0,0,0.08)', backgroundColor: '#ffffff', flexShrink: 0 }}>
-                            <img src={HolySabbath} alt="The Holy Sabbath Cover and Content" style={{ width: '100%', height: 'auto', display: 'block' }} />
-                        </div>
-
-                        {/* Audio CD Mockup */}
-                        <div style={{ width: '220px', borderRadius: '50%', overflow: 'hidden', border: '1px solid #d1d5db', boxShadow: '0 4px 12px rgba(0,0,0,0.08)', backgroundColor: '#ffffff', flexShrink: 0 }}>
-                            <img src={AudioCD} alt="The Holy Sabbath Audio CD" style={{ width: '100%', height: 'auto', display: 'block' }} />
-                        </div>
-                    </div>
-                </div>
                 {/* VISION / VISHALDO J. MATHINAN SECTION */}
                 <div style={{ marginTop: '70px', display: 'flex', flexDirection: 'row', alignItems: 'center', backgroundColor: '#fdf8f6', border: '1px solid #f5ebe0', borderRadius: '16px', padding: '40px', gap: '40px', textAlign: 'left' }}>
                     <div style={{ flex: 1 }}>
-                        <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '20px', textTransform: 'uppercase' }}>
+                        <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', letterSpacing: '1px', marginBottom: '20px', textTransform: 'uppercase' }}>
                             A Vision Once Thought Impossible Became Reality
                         </h2>
                         <p style={{ fontSize: '14px', color: '#374151', lineHeight: '1.8' }}>
@@ -409,47 +503,95 @@ const ProducerAlbum = () => {
                     </div>
                 </div>
 
+
                 {/* CONTINUING DETAILED SABBATH PRESENTATION SECTIONS BASED ON IMAGES */}
 
                 {/* 1. Spiritual Significance of the Sabbath */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '24px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '40px', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                        Spiritual Significance of the Sabbath
-                    </h2>
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '40px', flexWrap: 'wrap' }}>
-                        <div style={{ flex: '1 1 400px', borderRadius: '12px', overflow: 'hidden', border: '1px solid #d1d5db' }}>
-                            <img src={spiritual} alt="Spiritual Significance of the Sabbath" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                        <div style={{ flex: '1 1 400px', borderRadius: '24px', overflow: 'hidden', border: '1px solid #d1d5db', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
+                            <img src={spiritual} alt="Spiritual Significance of the Sabbath" style={{ width: '100%', height: '650px', display: 'block' }} />
                         </div>
-                        <div style={{ flex: '1 1 450px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                        <div style={{ flex: '1 1 450px', display: 'flex', flexDirection: 'column', gap: '22px' }}>
+                            <h2 style={{ fontSize: '26px', fontWeight: '900', color: '#ca8a04', textAlign: 'left', marginBottom: '5px', textTransform: 'uppercase', letterSpacing: '1px', fontFamily: "Anastasia" }}>
+                                Spiritual Significance of the Sabbath
+                            </h2>
                             <div>
-                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '5px' }}>Creation</h4>
+                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '4px' }}>Creation</h4>
                                 <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
                                     The Sabbath was established at the foundation of the world—when God rested, blessed, and sanctified the seventh day, setting it apart as holy.
                                 </p>
                             </div>
                             <div>
-                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '5px' }}>A Divine Sign</h4>
+                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '4px' }}>A Divine Sign</h4>
                                 <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
                                     The Sabbath stands as a sacred sign between God and His created people—revealing Him as the Lord who sanctifies and redeems His children (Ezekiel 20:12, 20).
                                 </p>
                             </div>
                             <div>
-                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '5px' }}>Mount Sinai (1446–1440 BC)</h4>
+                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '4px' }}>Mount Sinai (1446–1440 BC)</h4>
                                 <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
-                                    The Fourth Commandment was given as a divine reminder: <strong>"Remember the sabbath day, to keep it holy,"</strong> as recorded in the Book of Exodus, emphasizing rest, worship, and obedience to God.
+                                    The Fourth Commandment was given as a divine reminder: <strong>"Remember the sabbath day, to keep it holy,"</strong> as recorded in the Book of Exodus, emphasizing rest, worship, and obedience to God. It also stands as a test of faith and obedience on earth, and as the seal of God for those who enter heaven, just as the tree of the knowledge of good and evil was placed in the Garden of Eden as a test for humanity in the Book of Genesis.
                                 </p>
                             </div>
+                            <div>
+                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '4px' }}>Mount Sinai (1446–1440 BC)</h4>
+                                <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                    Jesus Himself honored the Sabbath faithfully: <strong>"And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read."</strong> (Luke 4:16)
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '4px' }}>Christ's Example</h4>
+                                <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                    Jesus Himself honored the Sabbath faithfully: <strong>"And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read."</strong> (Luke 4:16)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style={{ marginTop: '40px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                        <div>
+                            <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '4px' }}>After Christ</h4>
+                            <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                Jesus Himself honored the Sabbath faithfully: <strong>"And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read."</strong> (Luke 4:16)
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                "And woe unto them that are with child, and to them that give suck in those days! But <strong>pray ye that your flight be not in the winter, neither on the sabbath day:</strong> For then shall be great tribulation, such as was not since the beginning of the world to this time, no, nor ever shall be."
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                This reference highlights the continued significance of the Sabbath even decades after Christ's earthly ministry, while warning believers about the coming tribulation and destruction. Jesus Himself also rested in the tomb on the Sabbath after completing the work of redemption, just as He rested on the seventh day after finishing the work of creation.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 style={{ fontSize: '15px', fontWeight: 'bold', color: '#ca8a04', marginBottom: '4px' }}>Eternity</h4>
+                            <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                The Sabbath extends beyond time into eternity, where all humanity will worship God continually—from one Sabbath to another—as declared in Isaiah 66:22–23:
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                "For as the new heavens and the new earth, which I will make, shall remain before me, saith the LORD, so shall your seed and your name remain. And it shall come to pass, that from one new moon to another, and from one sabbath to another, shall all flesh come to worship before me, saith the LORD."
+                            </p>
+                        </div>
+                        <div>
+                            <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.6', margin: 0 }}>
+                                The passage further declares the final judgment upon those who transgress against God, revealing both the everlasting worship of the redeemed and the solemn consequences of rebellion against the Creator (Isaiah 66:24).
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 {/* 2. Christianity is Fragmented - Why? & God Wrote with His Own Finger */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase', lineHeight: '1.5' }}>
+                    <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase', lineHeight: '1.5' }}>
                         A careful and prayerful study of the Sabbath commandment (the fourth of the Ten Commandments) is essential for every individual, every church, and every Christian denomination. Therefore, God calls all people to remember His holy Sabbath: 'Remember the Sabbath day, to keep it holy.' — Exodus 20:8 (KJV).
                     </h2>
 
-                    <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', marginBottom: '20px', textTransform: 'uppercase' }}>
+                    <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', marginBottom: '20px', textTransform: 'uppercase' }}>
                         Christianity is Fragmented - Why???
                     </h3>
 
@@ -470,7 +612,7 @@ const ProducerAlbum = () => {
                         </div>
                     </div>
 
-                    <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', marginBottom: '20px', textTransform: 'uppercase', textAlign: 'center' }}>
+                    <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', marginBottom: '20px', textTransform: 'uppercase', textAlign: 'center' }}>
                         God Wrote With His Own Finger On 2 Tables of Stone
                     </h3>
                     <div style={{ textAlign: 'center', marginBottom: '50px' }}>
@@ -482,7 +624,7 @@ const ProducerAlbum = () => {
 
                 {/* 3. No Additions, No Alterations */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
                         No Additions. No Alterations.
                     </h2>
                     <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -494,7 +636,7 @@ const ProducerAlbum = () => {
 
                 {/* 4. Sabbath at Creation */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
                         Sabbath at Creation
                     </h2>
                     <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -506,7 +648,7 @@ const ProducerAlbum = () => {
 
                 {/* 5. The Sabbath: The Sign of Our Creator */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
                         The Sabbath: The Sign of Our Creator and Our Relationship With Him
                     </h2>
                     <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -518,7 +660,7 @@ const ProducerAlbum = () => {
 
                 {/* 6. The Only One That Begins with the Word "Remember" */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
                         The Only One That Begins with the Word "Remember"
                     </h2>
                     <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -530,7 +672,7 @@ const ProducerAlbum = () => {
 
                 {/* 7. Sabbath Was Made for Mankind */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
                         Sabbath Was Made for Mankind
                     </h2>
                     <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -542,7 +684,7 @@ const ProducerAlbum = () => {
 
                 {/* 8. Sabbath: God's Test of Loyalty */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase' }}>
                         Sabbath: God's Test of Loyalty
                     </h2>
                     <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -589,7 +731,7 @@ const ProducerAlbum = () => {
 
                 {/* 9. The Manna and the Sabbath Test of Exodus 16 */}
                 <div style={{ marginTop: '80px', textAlign: 'left' }}>
-                    <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase', lineHeight: '1.4' }}>
+                    <h2 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#ca8a04', textAlign: 'center', marginBottom: '30px', textTransform: 'uppercase', lineHeight: '1.4' }}>
                         The Manna and the Sabbath Test of Exodus 16 Occurred Before the Ten Commandments Were Written on the Stone Tablets
                     </h2>
                     <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -597,51 +739,6 @@ const ProducerAlbum = () => {
                             <img src={manna} alt="Manna and Sabbath Test" style={{ width: '100%', height: 'auto', display: 'block' }} />
                         </div>
                     </div>
-                    <p style={{ fontSize: '16px', fontWeight: 'bold', color: '#ca8a04', textAlign: 'center', textTransform: 'uppercase', letterSpacing: '1px', marginTop: '20px' }}>
-                        2,080 Weekly Miracles Confirmed God's Holy Sabbath Before Sinai...
-                    </p>
-                </div>
-                <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '40px 20px', fontFamily: 'sans-serif', color: '#1f2937' }}>
-
-                    {/* Section 1: From Deliverance to Disobedience */}
-                    <section style={{ marginBottom: '60px', textAlign: 'center' }}>
-                        <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
-                            FROM DELIVERANCE TO DISOBEDIENCE - ISRAEL'S REBELLION AGAINST GOD:
-                        </h2>
-
-                        <div style={{ maxWidth: '750px', margin: '0 auto 25px auto', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb' }}>
-                            <img
-                                src={d1}
-                                alt="Egyptian Bondage and Deliverance"
-                                style={{ width: '100%', height: 'auto', display: 'block' }}
-                            />
-                        </div>
-
-                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', textAlign: 'left', maxWidth: '850px', margin: '0 auto' }}>
-                            The Israelites were in Egyptian bondage for 430 years (Exodus 12:40–41). After God delivered them, they repeatedly rebelled against Him. According to Scripture, their rebellion included idolatry, disobedience to God's commandments, injustice, and the profaning of His Sabbaths. These persistent covenant violations ultimately led to their later captivities, including the Babylonian exile.
-                        </p>
-                    </section>
-
-                    <hr style={{ border: '0', borderTop: '1px solid #e5e7eb', marginBottom: '60px' }} />
-
-                    {/* Section 2: A Test Through Manna for 40 Years */}
-                    <section style={{ marginBottom: '60px', textAlign: 'center' }}>
-                        <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
-                            A TEST THROUGH MANNA FOR 40 YEARS: "BEHOLD, I WILL RAIN BREAD FROM HEAVEN FOR YOU... THAT I MAY PROVE THEM, WHETHER THEY WILL WALK IN MY LAW, OR NO":
-                        </h2>
-
-                        <div style={{ maxWidth: '750px', margin: '0 auto 25px auto', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb' }}>
-                            <img
-                                src={d2}
-                                alt="Manna from Heaven Test"
-                                style={{ width: '100%', height: 'auto', display: 'block' }}
-                            />
-                        </div>
-                    </section>
-
-                    <hr style={{ border: '0', borderTop: '1px solid #e5e7eb', marginBottom: '60px' }} />
-
-                    {/* Section 3: 2,080 Weekly Miracles Confirmed God's Holy Sabbath */}
                     <section style={{ textAlign: 'left', maxWidth: '850px', margin: '0 auto' }}>
                         <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase', textAlign: 'center' }}>
                             2,080 WEEKLY MIRACLES CONFIRMED GOD'S HOLY SABBATH BEFORE SINAI...
@@ -702,11 +799,55 @@ const ProducerAlbum = () => {
                             This makes the manna experience one of the longest continuous miracles recorded in Scripture, emphasizing the sanctity of the seventh-day Sabbath long before the giving of the law at Sinai.
                         </p>
                     </section>
+                </div>
+                <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '40px 20px', fontFamily: 'sans-serif', color: '#1f2937' }}>
+
+                    {/* Section 1: From Deliverance to Disobedience */}
+
+
+                    <hr style={{ border: '0', borderTop: '1px solid #e5e7eb', marginBottom: '60px' }} />
+
+                    {/* Section 2: A Test Through Manna for 40 Years */}
+                    <section style={{ marginBottom: '60px', textAlign: 'center' }}>
+                        <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                            A TEST THROUGH MANNA FOR 40 YEARS: "BEHOLD, I WILL RAIN BREAD FROM HEAVEN FOR YOU... THAT I MAY PROVE THEM, WHETHER THEY WILL WALK IN MY LAW, OR NO":
+                        </h2>
+
+                        <div style={{ maxWidth: '750px', margin: '0 auto 25px auto', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb' }}>
+                            <img
+                                src={d2}
+                                alt="Manna from Heaven Test"
+                                style={{ width: '100%', height: 'auto', display: 'block' }}
+                            />
+                        </div>
+                    </section>
+
+                    <hr style={{ border: '0', borderTop: '1px solid #e5e7eb', marginBottom: '60px' }} />
+                    <section style={{ marginBottom: '60px', textAlign: 'center' }}>
+                        <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                            FROM DELIVERANCE TO DISOBEDIENCE - ISRAEL'S REBELLION AGAINST GOD:
+                        </h2>
+
+                        <div style={{ maxWidth: '750px', margin: '0 auto 25px auto', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb' }}>
+                            <img
+                                src={d1}
+                                alt="Egyptian Bondage and Deliverance"
+                                style={{ width: '100%', height: 'auto', display: 'block' }}
+                            />
+                        </div>
+
+                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', textAlign: 'left', maxWidth: '850px', margin: '0 auto' }}>
+                            The Israelites were in Egyptian bondage for 430 years (Exodus 12:40–41). After God delivered them, they repeatedly rebelled against Him. According to Scripture, their rebellion included idolatry, disobedience to God's commandments, injustice, and the profaning of His Sabbaths. These persistent covenant violations ultimately led to their later captivities, including the Babylonian exile.
+                        </p>
+                    </section>
+
+                    {/* Section 3: 2,080 Weekly Miracles Confirmed God's Holy Sabbath */}
+
 
                 </div>
                 {/* Section 2: The Purpose of Israel's Deliverance */}
                 <section style={{ marginBottom: '60px', textAlign: 'center' }}>
-                    <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                         THE PURPOSE OF ISRAEL'S DELIVERANCE:
                     </h2>
 
@@ -727,7 +868,7 @@ const ProducerAlbum = () => {
 
                 {/* Section 3: God Gave Israel His Law and Holy Sabbath */}
                 <section style={{ marginBottom: '60px', textAlign: 'center' }}>
-                    <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                    <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                         GOD GAVE ISRAEL HIS LAW AND HOLY SABBATH:
                     </h2>
 
@@ -747,94 +888,196 @@ const ProducerAlbum = () => {
                 <hr style={{ border: '0', borderTop: '1px solid #e5e7eb', marginBottom: '60px' }} />
 
                 {/* Section 4: The Sabbath in its Biblical Context */}
-                <section style={{ marginBottom: '60px', textAlign: 'left', maxWidth: '850px', margin: '0 auto' }}>
-                    <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase', textAlign: 'center' }}>
+                <section style={{ marginBottom: '60px', textAlign: 'left', maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
+                    <h2 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '35px', letterSpacing: '1px', textTransform: 'uppercase', textAlign: 'center' }}>
                         THE SABBATH IN ITS BIBLICAL CONTEXT:
                     </h2>
 
-                    <div style={{ maxWidth: '750px', margin: '0 auto 25px auto', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb' }}>
-                        <img
-                            src={c3}
-                            alt="The Sabbath in its Biblical Context"
-                            style={{ width: '100%', height: 'auto', display: 'block' }}
-                        />
+                    <div
+                        style={{
+                            display: 'grid',
+                            gridTemplateColumns: '1fr 1fr',
+                            gap: '40px',
+                            alignItems: 'start',
+                            width: '100%'
+                        }}
+                    >
+                        {/* Left Column: Image */}
+                        <div
+                            style={{
+                                width: '100%',
+                                borderRadius: '24px',
+                                overflow: 'hidden',
+                                boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)',
+                                border: '1px solid #e5e7eb'
+                            }}
+                        >
+                            <img
+                                src={c3}
+                                alt="The Sabbath in its Biblical Context"
+                                style={{
+                                    width: '100%',
+                                    height: 'auto',
+                                    display: 'block'
+                                }}
+                            />
+                        </div>
+
+                        {/* Right Column: Text */}
+                        <div
+                            style={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '20px',
+                                minWidth: 0
+                            }}
+                        >
+                            <p
+                                style={{
+                                    fontSize: '13px',
+                                    lineHeight: '1.8',
+                                    color: '#374151',
+                                    margin: 0
+                                }}
+                            >
+                                The Holy Bible mentions the Sabbath is not directly in those two
+                                specific verses. Neither The Holy Bible nor The Holy Bible mentions
+                                the Sabbath.
+                            </p>
+
+                            <p
+                                style={{
+                                    fontSize: '13px',
+                                    lineHeight: '1.8',
+                                    color: '#374151',
+                                    margin: 0
+                                }}
+                            >
+                                However, there is a connection in the surrounding context of both
+                                chapters.
+                            </p>
+
+                            <div>
+                                <p
+                                    style={{
+                                        fontSize: '14px',
+                                        fontWeight: 'bold',
+                                        color: '#1f2937',
+                                        marginBottom: '6px'
+                                    }}
+                                >
+                                    In Ezekiel 20
+                                </p>
+
+                                <p
+                                    style={{
+                                        fontSize: '13px',
+                                        lineHeight: '1.8',
+                                        color: '#374151',
+                                        margin: 0
+                                    }}
+                                >
+                                    The chapter develops a sequence:
+                                </p>
+
+                                <ul
+                                    style={{
+                                        paddingLeft: '20px',
+                                        fontSize: '13px',
+                                        lineHeight: '1.8',
+                                        color: '#374151',
+                                        margin: '4px 0',
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        gap: '4px'
+                                    }}
+                                >
+                                    <li>
+                                        Verses 7–8 — Israel rebelled in Egypt by refusing to forsake
+                                        the idols of Egypt.
+                                    </li>
+                                    <li>
+                                        Verses 10–11 — God brought them out of Egypt and gave them
+                                        His statutes and judgments.
+                                    </li>
+                                    <li>Verse 12 — God says:</li>
+                                </ul>
+                            </div>
+
+                            <p
+                                style={{
+                                    fontSize: '13px',
+                                    lineHeight: '1.8',
+                                    color: '#374151',
+                                    fontStyle: 'italic',
+                                    margin: 0,
+                                    paddingLeft: '20px',
+                                    borderLeft: '3px solid #b45309'
+                                }}
+                            >
+                                "Moreover also I gave them my sabbaths, to be a sign between me and
+                                them, that they might know that I am the LORD that sanctify them."
+                            </p>
+                        </div>
                     </div>
 
-                    <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', marginBottom: '20px' }}>
-                        The Holy Bible mentions the Sabbath is not directly in those two specific verses. Neither The Holy Bible nor The Holy Bible mentions the Sabbath.
-                    </p>
-
-                    <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', marginBottom: '20px' }}>
-                        However, there is a connection in the surrounding context of both chapters.
-                    </p>
-
-                    <div style={{ marginBottom: '20px' }}>
-                        <p style={{ fontSize: '13px', fontWeight: 'bold', color: '#1f2937', marginBottom: '8px' }}>In Ezekiel 20</p>
-                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', marginBottom: '8px' }}>The chapter develops a sequence:</p>
-                        <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                            <li>Verses 7–8 — Israel rebelled in Egypt by refusing to forsake the idols of Egypt.</li>
-                            <li>Verses 10–11 — God brought them out of Egypt and gave them His statutes and judgments.</li>
-                            <li>Verse 12 — God says:</li>
+                    {/* Remaining Text Content spanning full width below the image */}
+                    <div style={{ marginTop: '35px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                        <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', margin: 0, display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                            <li>Verse 13 — Israel greatly polluted God's Sabbaths.</li>
+                            <li>Verse 20 — God says:</li>
                         </ul>
-                    </div>
 
-                    <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', fontStyle: 'italic', marginBottom: '20px', paddingLeft: '20px', borderLeft: '3px solid #b45309' }}>
-                        "Moreover also I gave them my sabbaths, to be a sign between me and them, that they might know that I am the LORD that sanctify them."
-                    </p>
-
-                    <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '20px' }}>
-                        <li>Verse 13 — Israel greatly polluted God's Sabbaths.</li>
-                        <li>Verse 20 — God says:</li>
-                    </ul>
-
-                    <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', fontStyle: 'italic', marginBottom: '20px', paddingLeft: '20px', borderLeft: '3px solid #b45309' }}>
-                        "And hallow my sabbaths; and they shall be a sign between me and you, that ye may know that I am the LORD your God."
-                    </p>
-
-                    <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '20px' }}>
-                        <li>Verse 24 — God again says they had polluted His Sabbaths.</li>
-                    </ul>
-
-                    <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', marginBottom: '20px' }}>
-                        So, while verse 8 is about idolatry in Egypt, the chapter later identifies profaning the Sabbath as another major aspect of Israel's rebellion.
-                    </p>
-
-                    <div style={{ marginBottom: '20px' }}>
-                        <p style={{ fontSize: '13px', fontWeight: 'bold', color: '#1f2937', marginBottom: '8px' }}>In Exodus 32</p>
-                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', marginBottom: '8px' }}>
-                            Exodus 32 records the worship of the golden calf. The chapter does <strong>not explicitly mention the Sabbath</strong>. However, the context is noteworthy:
+                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', fontStyle: 'italic', margin: 0, paddingLeft: '20px', borderLeft: '3px solid #b45309' }}>
+                            "And hallow my sabbaths; and they shall be a sign between me and you, that ye may know that I am the LORD your God."
                         </p>
-                        <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                            <li>In <strong>The Holy Bible</strong>, immediately before the golden calf incident, God emphasized the Sabbath:</li>
+
+                        <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', margin: 0 }}>
+                            <li>Verse 24 — God again says they had polluted His Sabbaths.</li>
                         </ul>
-                    </div>
 
-                    <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', fontStyle: 'italic', marginBottom: '20px', paddingLeft: '20px', borderLeft: '3px solid #b45309' }}>
-                        "Verily my sabbaths ye shall keep... it is a sign between me and you throughout your generations."
-                    </p>
+                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', margin: 0 }}>
+                            So, while verse 8 is about idolatry in Egypt, the chapter later identifies profaning the Sabbath as another major aspect of Israel's rebellion.
+                        </p>
 
-                    <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '20px' }}>
-                        <li>Then in <strong>Exodus 32</strong>, while Moses was receiving God's law, including the Sabbath command and other covenant instructions, the people broke the covenant by worshipping the golden calf.</li>
-                    </ul>
+                        <div>
+                            <p style={{ fontSize: '14px', fontWeight: 'bold', color: '#1f2937', marginBottom: '6px' }}>In Exodus 32</p>
+                            <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', margin: '0 0 6px 0' }}>
+                                Exodus 32 records the worship of the golden calf. The chapter does <strong>not explicitly mention the Sabbath</strong>. However, the context is noteworthy:
+                            </p>
+                            <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', margin: 0 }}>
+                                <li>In <strong>The Holy Bible</strong>, immediately before the golden calf incident, God emphasized the Sabbath:</li>
+                            </ul>
+                        </div>
 
-                    <div style={{ marginBottom: '20px' }}>
-                        <p style={{ fontSize: '13px', fontWeight: 'bold', color: '#1f2937', marginBottom: '8px' }}>Summary</p>
-                        <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                            <li><strong>Ezekiel 20:8</strong> $\rightarrow$ No direct mention of the Sabbath, but the chapter soon connects Israel's rebellion with <strong>profaning God's Sabbaths</strong> (verses 12, 13, 20, 24).</li>
-                            <li><strong>Exodus 32:7</strong> $\rightarrow$ No direct mention of the Sabbath, but it follows immediately after God's instruction that the Sabbath would be a <strong>sign of His covenant</strong> (Exodus 31:13–17). The golden calf episode represents a broader act of covenant unfaithfulness rather than a specific violation of the Sabbath command.</li>
+                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', fontStyle: 'italic', margin: 0, paddingLeft: '20px', borderLeft: '3px solid #b45309' }}>
+                            "Verily my sabbaths ye shall keep... it is a sign between me and you throughout your generations."
+                        </p>
+
+                        <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', margin: 0 }}>
+                            <li>Then in <strong>Exodus 32</strong>, while Moses was receiving God's law, including the Sabbath command and other covenant instructions, the people broke the covenant by worshipping the golden calf.</li>
                         </ul>
-                    </div>
 
-                    <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151' }}>
-                        For a Bible study on the Sabbath, Ezekiel 20:12–13, 20, and 24 are the strongest passages because they explicitly connect the Sabbath with God's covenant and Israel's obedience.
-                    </p>
+                        <div>
+                            <p style={{ fontSize: '14px', fontWeight: 'bold', color: '#1f2937', marginBottom: '6px' }}>Summary</p>
+                            <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '6px', margin: 0 }}>
+                                <li><strong>Ezekiel 20:8</strong> $\rightarrow$ No direct mention of the Sabbath, but the chapter soon connects Israel's rebellion with <strong>profaning God's Sabbaths</strong> (verses 12, 13, 20, 24).</li>
+                                <li><strong>Exodus 32:7</strong> $\rightarrow$ No direct mention of the Sabbath, but it follows immediately after God's instruction that the Sabbath would be a <strong>sign of His covenant</strong> (Exodus 31:13–17). The golden calf episode represents a broader act of covenant unfaithfulness rather than a specific violation of the Sabbath command.</li>
+                            </ul>
+                        </div>
+
+                        <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', margin: 0 }}>
+                            For a Bible study on the Sabbath, Ezekiel 20:12–13, 20, and 24 are the strongest passages because they explicitly connect the Sabbath with God's covenant and Israel's obedience.
+                        </p>
+                    </div>
                 </section>
+
 
                 <hr style={{ border: '0', borderTop: '1px solid #e5e7eb', marginBottom: '60px' }} />
             </div>
             {/* Section 6: Why God Punished Israel in the Wilderness */}
             <section style={{ marginBottom: '60px', textAlign: 'center' }}>
-                <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '25px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                     WHY GOD PUNISHED ISRAEL IN THE WILDERNESS:
                 </h2>
 

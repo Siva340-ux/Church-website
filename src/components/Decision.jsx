@@ -1,6 +1,7 @@
 import React from 'react';
 import book from '../assets/book.png'
 import decision from '../assets/decision.png'
+import dollar from '../assets/dollar.png'
 
 const OurDecisionAndStudySection = () => {
     return (
@@ -18,7 +19,7 @@ const OurDecisionAndStudySection = () => {
                     </div>
 
                     <div style={{ flex: '1', minWidth: '300px', maxWidth: '480px' }}>
-                        <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '20px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                        <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '20px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                             OUR DECISION
                         </h2>
                         <ul style={{ paddingLeft: '20px', fontSize: '13px', lineHeight: '1.8', color: '#374151', display: 'flex', flexDirection: 'column', gap: '10px', listStyleType: 'disc' }}>
@@ -37,7 +38,7 @@ const OurDecisionAndStudySection = () => {
 
             {/* Part 2: For More Study on the 7th Day Sabbath & The Law of God */}
             <section style={{ textAlign: 'center' }}>
-                <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', marginBottom: '30px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+                <h2 style={{ fontSize: '20px', fontWeight: '900', fontFamily: "Anastasia", color: '#b45309', marginBottom: '30px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                     FOR MORE STUDY ON THE 7TH DAY SABBATH & THE LAW OF GOD:
                 </h2>
 
@@ -51,14 +52,14 @@ const OurDecisionAndStudySection = () => {
                     </div>
 
                     <div style={{ flex: '1', minWidth: '300px', maxWidth: '550px' }}>
-                        <h3 style={{ fontSize: '16px', fontWeight: '900', color: '#b45309', marginBottom: '12px', textTransform: 'uppercase' }}>
+                        <h3 style={{ fontSize: '16px', fontWeight: '900', fontFamily: "Anastasia", color: '#b45309', marginBottom: '12px', textTransform: 'uppercase' }}>
                             "BIBLE READINGS FOR THE HOME"
                         </h3>
                         <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', marginBottom: '15px' }}>
                             Read this book which will answer nearly 4,000 Bible questions in a simple question and answer format. The 201 Bible Topics have been prepared in a simple question and answer format, with the answer from the Bible. 790 pages. <a href="https://www.preparingforeternity.com/br1914/brhccontents.htm" target="_blank" rel="noopener noreferrer" style={{ color: '#2563eb', textDecoration: 'underline' }}>Bible Readings for the Home Circle - 1914 Edition</a>
                         </p>
 
-                        <h4 style={{ fontSize: '14px', fontWeight: '900', color: '#b45309', marginBottom: '8px', textTransform: 'uppercase' }}>
+                        <h4 style={{ fontSize: '14px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', marginBottom: '8px', textTransform: 'uppercase' }}>
                             CLICK TO READ THE BOOK ONLINE
                         </h4>
                         <p style={{ fontSize: '13px', marginBottom: '15px', wordBreak: 'break-all' }}>
@@ -67,7 +68,7 @@ const OurDecisionAndStudySection = () => {
                             </a>
                         </p>
 
-                        <h4 style={{ fontSize: '14px', fontWeight: '900', color: '#b45309', marginBottom: '8px', textTransform: 'uppercase' }}>
+                        <h4 style={{ fontSize: '14px', fontWeight: '900', fontFamily: "Anastasia", color: '#b45309', marginBottom: '8px', textTransform: 'uppercase' }}>
                             CLICK TO DOWNLOAD THE ENTIRE PDF BOOK "BIBLE READINGS FOR THE HOME CIRCLE - 1914 EDITION"
                         </h4>
                         <p style={{ fontSize: '13px', marginBottom: '20px' }}>

@@ -13,7 +13,7 @@ const Card = ({ title, items }) => {
         }}>
             <h3 style={{
                 fontSize: '22px',
-                fontFamily: 'serif',
+                fontFamily: "Anastasia",
                 fontWeight: '900',
                 color: '#b45309',
                 letterSpacing: '1px',
@@ -353,7 +353,7 @@ export default function WhyNeeded() {
         <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px', fontFamily: 'sans-serif' }}>
             {/* Main Header */}
             <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-                <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
+                <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
                     Evils, Sins, and Social Problems Affecting Humanity
                 </h2>
                 <p style={{ fontSize: '12px', color: '#4b5563', fontStyle: 'italic' }}>

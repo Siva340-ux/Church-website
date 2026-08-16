@@ -64,7 +64,7 @@ const Highlights = () => {
                     </div>
 
                     <div style={{ flex: '1 1 450px' }}>
-                        <h2 style={{ fontSize: '20px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', lineHeight: '1.4', textTransform: 'uppercase' }}>
+                        <h2 style={{ fontSize: '20px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', lineHeight: '1.4', textTransform: 'uppercase' }}>
                             Introduction: The Universal Royal Law of Love
                         </h2>
                         <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '15px' }}>
@@ -98,7 +98,7 @@ const Highlights = () => {
 
             {/* 4. Project Highlights Stats Banner */}
             <div style={{ backgroundColor: '#fef9e7', borderTop: '1px solid #fde68a', borderBottom: '1px solid #fde68a', padding: '50px 20px', textAlign: 'center', marginBottom: '60px' }}>
-                <h3 style={{ fontSize: '22px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
+                <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
                     Project Highlights
                 </h3>
                 <p style={{ fontSize: '13px', color: '#6b7280', marginBottom: '40px' }}>
@@ -144,7 +144,7 @@ const Highlights = () => {
 
                     {/* Right Side Roles Content */}
                     <div style={{ flex: '1 1 450px' }}>
-                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '25px', textTransform: 'uppercase', fontFamily: 'serif' }}>
+                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '25px', textTransform: 'uppercase', fontFamily: "Anastasia" }}>
                             Participation & Roles
                         </h3>
 
@@ -213,7 +213,7 @@ const Highlights = () => {
             {/* 6. Purpose Section */}
             <div style={{ backgroundColor: '#fef9e7', borderTop: '1px solid #fde68a', borderBottom: '1px solid #fde68a', padding: '60px 20px', textAlign: 'center', marginBottom: '60px' }}>
                 <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-                    <h3 style={{ fontSize: '24px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '30px', lineHeight: '1.4' }}>
+                    <h3 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '30px', lineHeight: '1.4' }}>
                         Join, The Only Audio-Visual Production That Suits The Entire World's Human Races!
                     </h3>
 
@@ -237,7 +237,7 @@ const Highlights = () => {
             {/* 7. Overview & Album Preview Section */}
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px' }}>
                 <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-                    <h3 style={{ fontSize: '24px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', lineHeight: '1.4' }}>
+                    <h3 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', lineHeight: '1.4' }}>
                         A Global Multilingual Audio/Visual Album<br />For All Humanity Uniting The World Through Music!
                     </h3>
 
@@ -301,7 +301,7 @@ const Highlights = () => {
 
                 {/* Invite Item: World-Renowned Distinguished Lyricists */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: World-Renowned Distinguished Lyricists
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -311,7 +311,7 @@ const Highlights = () => {
 
                 {/* Invite Item: World-Renowned Music Directors */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: World-Renowned Music Directors
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -321,7 +321,7 @@ const Highlights = () => {
 
                 {/* Invite Item: World-Renowned Professional Singers */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: World-Renowned Professional Singers
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -331,7 +331,7 @@ const Highlights = () => {
 
                 {/* Invite Item: Distinguished Television Serial Singers */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Distinguished Television Serial Singers
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -341,7 +341,7 @@ const Highlights = () => {
 
                 {/* Invite Item: Celebrated Adult Super Singers of TV Channels */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Adult Super Singers of TV Channels
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -351,7 +351,7 @@ const Highlights = () => {
 
                 {/* Invite Item: Celebrated Junior Super Singers of TV Channels */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Junior Super Singers of TV Channels
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -361,7 +361,7 @@ const Highlights = () => {
 
                 {/* Invite Item: Celebrated Stage Singers & Orchestra */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Stage Singers & Orchestra
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -371,7 +371,7 @@ const Highlights = () => {
 
                 {/* Invite Item: Celebrated Social Media Singers */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Social Media Singers
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -385,7 +385,7 @@ const Highlights = () => {
 
                 {/* Renowned Pastors Who Sing */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Renowned Pastors Who Sing
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -395,7 +395,7 @@ const Highlights = () => {
 
                 {/* Celebrated Church Soloists */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Church Soloists
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -405,7 +405,7 @@ const Highlights = () => {
 
                 {/* Celebrated Church Choirs */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Church Choirs
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -415,7 +415,7 @@ const Highlights = () => {
 
                 {/* Celebrated Music Academy Singers & Musicians */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Music Academy Singers & Musicians
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -425,7 +425,7 @@ const Highlights = () => {
 
                 {/* Celebrated Senior Vocalists */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Senior Vocalists
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -435,7 +435,7 @@ const Highlights = () => {
 
                 {/* Celebrated Middle-Aged Vocalists */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Middle-Aged Vocalists
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -445,7 +445,7 @@ const Highlights = () => {
 
                 {/* Talented Junior Vocalists */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Talented Junior Vocalists
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -455,7 +455,7 @@ const Highlights = () => {
 
                 {/* Talented Vocalists of Educational Institutions */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Talented Vocalists of Educational Institutions
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -465,7 +465,7 @@ const Highlights = () => {
 
                 {/* Renowned VIP Speakers & Narrators */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Renowned VIP Speakers & Narrators
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -475,7 +475,7 @@ const Highlights = () => {
 
                 {/* Renowned Film Directors */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Renowned Film Directors
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -485,7 +485,7 @@ const Highlights = () => {
 
                 {/* Celebrated Film Cameramen */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Film Cameramen
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -495,7 +495,7 @@ const Highlights = () => {
 
                 {/* Celebrated Screenwriters */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Screenwriters
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -505,7 +505,7 @@ const Highlights = () => {
 
                 {/* Distinguished Actors */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Distinguished Actors
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -515,7 +515,7 @@ const Highlights = () => {
 
                 {/* Celebrated Audio Recording Engineers */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated Audio Recording Engineers
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -525,7 +525,7 @@ const Highlights = () => {
 
                 {/* Distinguished Film & Video Editors */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Distinguished Film & Video Editors
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -535,7 +535,7 @@ const Highlights = () => {
 
                 {/* Celebrated AI Audio & Video Creators */}
                 <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                         We Invite: Celebrated AI Audio & Video Creators
                     </h3>
                     <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -546,7 +546,7 @@ const Highlights = () => {
             </div>
             {/* Distinguished Graphic Designers */}
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
                     We Invite: Distinguished Graphic Designers
                 </h3>
                 <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -556,7 +556,7 @@ const Highlights = () => {
 
             {/* Distinguished Makeup Artists */}
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', marginTop: "70px" }}>
                     We Invite: Distinguished Makeup Artists
                 </h3>
                 <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -566,7 +566,7 @@ const Highlights = () => {
 
             {/* Musical Instrument Performers */}
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', marginTop: "70px" }}>
                     We Invite: Musical Instrument Performers
                 </h3>
                 <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -576,7 +576,7 @@ const Highlights = () => {
 
             {/* Undiscovered Talents */}
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
+                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px', marginTop: "70px" }}>
                     We Invite: Undiscovered Talents
                 </h3>
                 <p style={{ fontSize: '12px', color: '#4b5563', marginBottom: '20px', fontStyle: 'italic' }}>
@@ -589,17 +589,17 @@ const Highlights = () => {
 
             {/* The Support of Newspapers, TV Channels, Radio Stations & Social Media Platforms */}
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginTop: "70px" }}>
                     We Invite: The Support of Newspapers, TV Channels, Radio Stations & Social Media Platforms
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '80px' }}>
+                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '10px' }}>
                     <img src={newspaper} alt="Media Support" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 </div>
             </div>
 
             {/* Volunteers or Coordinators */}
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', marginTop: '80px' }}>
+                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', marginTop: '80px' }}>
                     We Invite: Volunteers or Coordinators
                 </h3>
                 <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
@@ -609,10 +609,10 @@ const Highlights = () => {
 
             {/* Dedicated Web Designers & Developers */}
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginTop: "70px" }}>
                     We Invite: Dedicated Web Designers & Developers
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '80px', marginBottom: '40px' }}>
+                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '10px', marginBottom: '40px' }}>
                     <img src={webdesigner} alt="Dedicated Web Designers & Developers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 </div>
             </div>

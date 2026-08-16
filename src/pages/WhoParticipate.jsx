@@ -40,7 +40,7 @@ const WhoParticipate = () => {
             <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px', fontFamily: 'sans-serif', textAlign: 'center' }}>
 
                 {/* Heading */}
-                <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '25px' }}>
+                <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '25px' }}>
                     A Global Invitation to All
                 </h2>
 
@@ -73,7 +73,7 @@ const WhoParticipate = () => {
                 </div>
 
                 {/* Who Can Join Heading */}
-                <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '40px' }}>
+                <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '40px' }}>
                     Who Can Join?
                 </h2>
 
@@ -128,7 +128,7 @@ const WhoParticipate = () => {
 
                 {/* Experts & Thought Leaders Section */}
                 <div style={{ maxWidth: '850px', margin: '0 auto', textAlign: 'left', padding: '0 20px' }}>
-                    <h2 style={{ fontSize: '26px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', textAlign: 'center' }}>
+                    <h2 style={{ fontSize: '26px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', textAlign: 'center' }}>
                         Experts & Thought Leaders
                     </h2>
                     <p style={{ fontSize: '13px', lineHeight: '1.8', color: '#374151', marginBottom: '15px' }}>

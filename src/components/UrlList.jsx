@@ -3,7 +3,7 @@ import React from 'react';
 const SomeMoreInformationComponent = () => {
     return (
         <div style={{ maxWidth: '900px', margin: '0 auto', padding: '40px 20px', fontFamily: 'sans-serif', color: '#1f2937' }}>
-            <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', marginBottom: '15px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
+            <h2 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', fontFamily: "Anastasia", marginBottom: '15px', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
                 SOME MORE INFORMATION:
             </h2>
 

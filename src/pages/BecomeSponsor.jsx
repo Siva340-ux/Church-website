@@ -10,7 +10,7 @@ const SponsorSection = ({ title, imageUrl, description, extraDescription }) => {
     return (
         <div style={{ marginBottom: '80px', textAlign: 'center' }}>
             {/* Section Heading */}
-            <h2 style={{ fontSize: '24px', fontFamily: 'serif', fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '30px', lineHeight: '1.4' }}>
+            <h2 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '30px', lineHeight: '1.4' }}>
                 {title}
             </h2>
 
