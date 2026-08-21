@@ -11,7 +11,7 @@ const ThemeCard = ({ title, description, items }) => {
             borderRadius: '24px',
             padding: '35px 30px',
             flex: '1 1 450px',
-            maxWidth: '480px',
+            maxWidth: '580px',
             boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)',
             display: 'flex',
             flexDirection: 'column',
@@ -53,12 +53,12 @@ const PresentCondition = () => {
                 </h2>
 
                 {/* Description Text */}
-                <p style={{ maxWidth: '850px', margin: '0 auto 40px auto', fontSize: '13px', lineHeight: '1.8', color: '#374151' }}>
+                <p style={{ maxWidth: '950px', margin: '0 auto 40px auto', fontSize: '13px', lineHeight: '1.8', color: '#374151' }}>
                     We are living in a time of profound moral and spiritual decline. Across the world, the foundations of truth, justice, and righteousness are being shaken. What was once considered right is now often ignored, and what was once condemned is increasingly normalized. Society is witnessing a steady erosion of values—where respect for authority, reverence for life, and commitment to moral principles are fading. The absence of guiding laws rooted in truth and love has led to confusion, disorder, and instability.
                 </p>
 
                 {/* Image Container */}
-                <div style={{ maxWidth: '850px', margin: '0 auto 80px auto', borderRadius: '24px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
+                <div style={{ maxWidth: '650px', margin: '0 auto 80px auto', borderRadius: '24px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
                     <img
                         src={violence}
                         alt="Scream of Violence Banner"

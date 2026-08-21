@@ -92,24 +92,218 @@ const ProducerAlbum = () => {
     ];
 
     return (
-        <div style={{ backgroundColor: '#ffffff', color: '#000000', minHeight: '100vh', fontFamily: 'sans-serif' }}>
+        <div className="producer-album-page" style={{ backgroundColor: '#ffffff', color: '#000000', minHeight: '100vh', width: '100%', maxWidth: '100%', overflowX: 'hidden', fontFamily: 'sans-serif', boxSizing: 'border-box' }}>
+
+            <style>{`
+                .producer-album-page,
+                .producer-album-page * {
+                    box-sizing: border-box;
+                }
+
+                .producer-album-page {
+                    width: 100%;
+                    max-width: 100%;
+                    overflow-x: hidden;
+                }
+
+                .producer-album-page img {
+                    max-width: 100%;
+                }
+
+                .producer-album-page .hero {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    height: clamp(280px, 40vw, 600px) !important;
+                    min-height: 280px;
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+
+                @media (max-width: 1024px) {
+                    .producer-album-page {
+                        overflow-x: hidden;
+                    }
+
+                    .producer-album-page [style*="width: 565px"] {
+                        width: min(100%, 565px) !important;
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="width: 450px"] {
+                        width: min(100%, 450px) !important;
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="width: 400px"] {
+                        width: min(100%, 400px) !important;
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="width: 320px"] {
+                        width: min(100%, 320px) !important;
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="width: 280px"] {
+                        width: min(100%, 280px) !important;
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="width: 240px"] {
+                        width: min(100%, 240px) !important;
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="width: calc(100% - 104px)"] {
+                        width: calc(100% - 40px) !important;
+                    }
+
+                    .producer-album-page [style*="grid-template-columns: repeat(7, 1fr)"] {
+                        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+                    }
+
+                    .producer-album-page [style*="grid-template-columns: 1fr 1fr 1fr"] {
+                        grid-template-columns: 1fr 1fr !important;
+                    }
+
+                    .producer-album-page [style*="height: 650px"] {
+                        height: auto !important;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .producer-album-page .hero {
+                        height: clamp(260px, 72vw, 380px) !important;
+                        min-height: 260px;
+                    }
+
+                    .producer-album-page > div:not(.hero) {
+                        max-width: 100%;
+                    }
+
+                    .producer-album-page [style*="font-size: 30px"] {
+                        font-size: clamp(20px, 5vw, 26px) !important;
+                        line-height: 1.35 !important;
+                    }
+
+                    .producer-album-page [style*="font-size: 34px"] {
+                        font-size: clamp(24px, 6vw, 30px) !important;
+                        line-height: 1.25 !important;
+                    }
+
+                    .producer-album-page [style*="font-size: 32px"] {
+                        font-size: clamp(23px, 6vw, 29px) !important;
+                    }
+
+                    .producer-album-page [style*="font-size: 26px"],
+                    .producer-album-page [style*="font-size: 24px"],
+                    .producer-album-page [style*="font-size: 22px"] {
+                        font-size: clamp(18px, 5vw, 22px) !important;
+                        line-height: 1.35 !important;
+                    }
+
+                    .producer-album-page [style*="padding: 50px 20px"] {
+                        padding: 30px 15px !important;
+                    }
+
+                    .producer-album-page [style*="padding: 40px"] {
+                        padding: 20px 15px !important;
+                    }
+
+                    .producer-album-page [style*="padding: 35px"] {
+                        padding: 15px 0 !important;
+                    }
+
+                    .producer-album-page [style*="flex-direction: row"] {
+                        flex-direction: column !important;
+                    }
+
+                    .producer-album-page [style*="grid-template-columns: repeat(7, 1fr)"] {
+                        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                        gap: 18px 12px !important;
+                        padding: 10px 0 25px 0 !important;
+                    }
+
+                    .producer-album-page [style*="grid-template-columns: 1fr 1fr 1fr"],
+                    .producer-album-page [style*="grid-template-columns: 1fr 1fr"] {
+                        grid-template-columns: 1fr !important;
+                    }
+
+                    .producer-album-page [style*="width: 100vw"] {
+                        width: 100% !important;
+                        margin-left: 0 !important;
+                    }
+
+                    .producer-album-page [style*="width: calc(100% - 104px)"] {
+                        width: calc(100% - 30px) !important;
+                    }
+
+                    .producer-album-page [style*="height: 320px"] {
+                        height: 320px !important;
+                        max-width: 240px !important;
+                        margin: 0 auto;
+                    }
+
+                    .producer-album-page [style*="height: 280px"] {
+                        height: auto !important;
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="height: 200px"] {
+                        height: 200px !important;
+                    }
+
+                    .producer-album-page [style*="width: 150px"] {
+                        width: 140px !important;
+                        max-width: 45vw !important;
+                    }
+
+                    .producer-album-page [style*="width: 320px"] {
+                        width: min(100%, 320px) !important;
+                        margin: 0 auto;
+                    }
+
+                    .producer-album-page [style*="max-width: 1300px"] {
+                        max-width: 100% !important;
+                    }
+
+                    .producer-album-page [style*="max-width: 1400px"] {
+                        max-width: 100% !important;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .producer-album-page .hero {
+                        height: 280px !important;
+                        min-height: 280px;
+                    }
+
+                    .producer-album-page [style*="font-size: 18px"],
+                    .producer-album-page [style*="font-size: 19px"] {
+                        font-size: 15px !important;
+                    }
+
+                    .producer-album-page [style*="gap: 40px"] {
+                        gap: 22px !important;
+                    }
+
+                    .producer-album-page [style*="margin-top: 80px"] {
+                        margin-top: 50px !important;
+                    }
+
+                    .producer-album-page [style*="margin-top: 70px"] {
+                        margin-top: 45px !important;
+                    }
+
+                    .producer-album-page [style*="padding: 25px"] {
+                        padding: 18px !important;
+                    }
+                }
+            `}</style>
 
             {/* Hero Banner Section */}
-            {/* <div
 
-                style={{
-                    backgroundImage: ` url(${bgImage})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    color: '#ffffff',
-                    padding: '60px 20px',
-                    textAlign: 'center',
-                    borderBottom: '8px solid #e6b800',
-                    width: '1340px',
-                    height: '600px',
-                }}>
-
-            </div> */}
             <div
                 className="hero"
                 style={{
@@ -117,11 +311,14 @@ const ProducerAlbum = () => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
+                    width: '100%',
+                    height: 'clamp(280px, 40vw, 600px)',
                     color: '#ffffff',
                     textAlign: 'center',
                 }}
             >
             </div>
+
 
 
             {/* Main Body Content */}

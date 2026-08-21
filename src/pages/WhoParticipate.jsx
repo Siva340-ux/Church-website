@@ -53,7 +53,7 @@ const WhoParticipate = () => {
                 </p>
 
                 {/* Banner Images Section */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '30px', marginBottom: '60px' }}>
+                <div style={{ display: 'flex', flexDirection: 'row', gap: '30px', marginBottom: '60px' }}>
                     <div style={{ maxWidth: '850px', margin: '0 auto', borderRadius: '24px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
                         <img
                             src={participate}

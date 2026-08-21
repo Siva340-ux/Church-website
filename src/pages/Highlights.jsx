@@ -50,7 +50,7 @@ const Highlights = () => {
             <Backdrop title="Highlights of the Album" />
 
             {/* Main Content Body */}
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px' }}>
+            <div style={{ maxWidth: '1300px', margin: '0 auto', padding: '60px 20px' }}>
 
                 {/* 2. Introduction Section */}
                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '40px', flexWrap: 'wrap', marginBottom: '60px' }}>
@@ -130,7 +130,7 @@ const Highlights = () => {
             </div>
 
             {/* 5. Participation & Roles Section */}
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px' }}>
+            <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 20px 80px 20px' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '40px', flexWrap: 'wrap' }}>
 
                     {/* Left Side Image */}
@@ -212,7 +212,7 @@ const Highlights = () => {
 
             {/* 6. Purpose Section */}
             <div style={{ backgroundColor: '#fef9e7', borderTop: '1px solid #fde68a', borderBottom: '1px solid #fde68a', padding: '60px 20px', textAlign: 'center', marginBottom: '60px' }}>
-                <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+                <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     <h3 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '30px', lineHeight: '1.4' }}>
                         Join, The Only Audio-Visual Production That Suits The Entire World's Human Races!
                     </h3>
@@ -235,7 +235,7 @@ const Highlights = () => {
             </div>
 
             {/* 7. Overview & Album Preview Section */}
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px' }}>
+            <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px 80px 20px' }}>
                 <div style={{ textAlign: 'center', marginBottom: '50px' }}>
                     <h3 style={{ fontSize: '24px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', lineHeight: '1.4' }}>
                         A Global Multilingual Audio/Visual Album<br />For All Humanity Uniting The World Through Music!
@@ -278,7 +278,7 @@ const Highlights = () => {
                 </div>
 
                 {/* Preview Banner Images Side by Side */}
-                <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                {/* <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
                     <div style={{ flex: '1 1 440px', maxWidth: '480px', height: '280px', borderRadius: '12px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)' }}>
                         <img
                             src={visualalbum}
@@ -293,336 +293,1431 @@ const Highlights = () => {
                             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                         />
                     </div>
+                </div> */}
+                <div
+                    style={{
+                        display: 'flex',
+                        gap: '20px',
+                        flexWrap: 'wrap',
+                        justifyContent: 'center',
+                        width: '100%',
+                        boxSizing: 'border-box',
+                    }}
+                >
+                    {/* Image 1 */}
+                    <div
+                        style={{
+                            flex: '1 1 440px',
+                            width: '100%',
+                            maxWidth: '480px',
+                            aspectRatio: '16 / 9',
+                            borderRadius: '12px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                            boxSizing: 'border-box',
+                        }}
+                    >
+                        <img
+                            src={visualalbum}
+                            alt="Album Preview 1"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                                display: 'block',
+                            }}
+                        />
+                    </div>
+
+                    {/* Image 2 */}
+                    <div
+                        style={{
+                            flex: '1 1 440px',
+                            width: '100%',
+                            maxWidth: '480px',
+                            aspectRatio: '16 / 9',
+                            borderRadius: '12px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                            boxSizing: 'border-box',
+                        }}
+                    >
+                        <img
+                            src={sing}
+                            alt="Album Preview 2"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                                display: 'block',
+                            }}
+                        />
+                    </div>
                 </div>
             </div>
 
             {/* 8. Invitation Sections (Lyricists, Music Directors, Singers, etc.) */}
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px', display: 'flex', flexDirection: 'column', gap: '80px' }}>
+            <div
+                style={{
+                    maxWidth: '1000px',
+                    width: '100%',
+                    margin: '0 auto',
+                    padding: '0 20px 80px 20px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '80px',
+                    boxSizing: 'border-box',
+                }}
+            >
 
                 {/* Invite Item: World-Renowned Distinguished Lyricists */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: World-Renowned Distinguished Lyricists
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={lyricists} alt="World-Renowned Distinguished Lyricists" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={lyricists}
+                            alt="World-Renowned Distinguished Lyricists"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Invite Item: World-Renowned Music Directors */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: World-Renowned Music Directors
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={md} alt="World-Renowned Music Directors" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={md}
+                            alt="World-Renowned Music Directors"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Invite Item: World-Renowned Professional Singers */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: World-Renowned Professional Singers
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={psinger} alt="World-Renowned Professional Singers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={psinger}
+                            alt="World-Renowned Professional Singers"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Invite Item: Distinguished Television Serial Singers */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: Distinguished Television Serial Singers
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={tvsinger} alt="Distinguished Television Serial Singers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={tvsinger}
+                            alt="Distinguished Television Serial Singers"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
 
-                {/* Invite Item: Celebrated Adult Super Singers of TV Channels */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+
+                {/* Invite Item: Celebrated Adult Super Singers */}
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: Celebrated Adult Super Singers of TV Channels
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={supersinger} alt="Celebrated Adult Super Singers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={supersinger}
+                            alt="Celebrated Adult Super Singers"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
 
-                {/* Invite Item: Celebrated Junior Super Singers of TV Channels */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+
+                {/* Invite Item: Celebrated Junior Super Singers */}
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: Celebrated Junior Super Singers of TV Channels
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={juniorsinger} alt="Celebrated Junior Super Singers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={juniorsinger}
+                            alt="Celebrated Junior Super Singers"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Invite Item: Celebrated Stage Singers & Orchestra */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: Celebrated Stage Singers & Orchestra
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={orchestra} alt="Celebrated Stage Singers & Orchestra" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={orchestra}
+                            alt="Celebrated Stage Singers & Orchestra"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
 
+
                 {/* Invite Item: Celebrated Social Media Singers */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3
+                        style={{
+                            fontSize: '18px',
+                            fontFamily: 'Anastasia',
+                            fontWeight: '900',
+                            color: '#b45309',
+                            letterSpacing: '1px',
+                            textTransform: 'uppercase',
+                            marginBottom: '20px',
+                        }}
+                    >
                         We Invite: Celebrated Social Media Singers
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={socialmedia} alt="Celebrated Social Media Singers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div
+                        style={{
+                            width: '100%',
+                            maxWidth: '750px',
+                            margin: '0 auto',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: '#f3f4f6',
+                            boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        }}
+                    >
+                        <img
+                            src={socialmedia}
+                            alt="Celebrated Social Media Singers"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
                 </div>
 
             </div>
             {/* 9. Additional Invite Sections */}
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px', display: 'flex', flexDirection: 'column', gap: '80px' }}>
+            <div
+                style={{
+                    width: '100%',
+                    maxWidth: '1000px',
+                    margin: '0 auto',
+                    padding: '0 20px 80px 20px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '80px',
+                    boxSizing: 'border-box',
+                }}
+            >
 
                 {/* Renowned Pastors Who Sing */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Renowned Pastors Who Sing
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={renowned} alt="Renowned Pastors Who Sing" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={renowned}
+                            alt="Renowned Pastors Who Sing"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Church Soloists */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Church Soloists
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={sololists} alt="Celebrated Church Soloists" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={sololists}
+                            alt="Celebrated Church Soloists"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Church Choirs */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Church Choirs
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={choirs} alt="Celebrated Church Choirs" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={choirs}
+                            alt="Celebrated Church Choirs"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Music Academy Singers & Musicians */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Music Academy Singers & Musicians
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={musicians} alt="Celebrated Music Academy Singers & Musicians" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={musicians}
+                            alt="Celebrated Music Academy Singers & Musicians"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Senior Vocalists */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Senior Vocalists
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={seniorvocal} alt="Celebrated Senior Vocalists" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={seniorvocal}
+                            alt="Celebrated Senior Vocalists"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Middle-Aged Vocalists */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Middle-Aged Vocalists
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={midvocal} alt="Celebrated Middle-Aged Vocalists" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={midvocal}
+                            alt="Celebrated Middle-Aged Vocalists"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Talented Junior Vocalists */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Talented Junior Vocalists
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={juniorvocal} alt="Talented Junior Vocalists" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={juniorvocal}
+                            alt="Talented Junior Vocalists"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Talented Vocalists of Educational Institutions */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Talented Vocalists of Educational Institutions
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={talentedvocal} alt="Talented Vocalists of Educational Institutions" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={talentedvocal}
+                            alt="Talented Vocalists of Educational Institutions"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Renowned VIP Speakers & Narrators */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Renowned VIP Speakers & Narrators
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={narrators} alt="Renowned VIP Speakers & Narrators" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={narrators}
+                            alt="Renowned VIP Speakers & Narrators"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Renowned Film Directors */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Renowned Film Directors
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={filmdirector} alt="Renowned Film Directors" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={filmdirector}
+                            alt="Renowned Film Directors"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Film Cameramen */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Film Cameramen
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={cameraman} alt="Celebrated Film Cameramen" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={cameraman}
+                            alt="Celebrated Film Cameramen"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Screenwriters */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Screenwriters
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={screenwriters} alt="Celebrated Screenwriters" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={screenwriters}
+                            alt="Celebrated Screenwriters"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Distinguished Actors */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Distinguished Actors
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={actors} alt="Distinguished Actors" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={actors}
+                            alt="Distinguished Actors"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated Audio Recording Engineers */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated Audio Recording Engineers
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={engineer} alt="Celebrated Audio Recording Engineers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={engineer}
+                            alt="Celebrated Audio Recording Engineers"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Distinguished Film & Video Editors */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Distinguished Film & Video Editors
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={videoeditor} alt="Distinguished Film & Video Editors" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={videoeditor}
+                            alt="Distinguished Film & Video Editors"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
+
 
                 {/* Celebrated AI Audio & Video Creators */}
-                <div style={{ textAlign: 'center' }}>
-                    <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+                <div style={{ textAlign: 'center', width: '100%' }}>
+                    <h3 style={{
+                        fontSize: '18px',
+                        fontFamily: "Anastasia",
+                        fontWeight: '900',
+                        color: '#b45309',
+                        letterSpacing: '1px',
+                        textTransform: 'uppercase',
+                        marginBottom: '20px'
+                    }}>
                         We Invite: Celebrated AI Audio & Video Creators
                     </h3>
-                    <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                        <img src={aiaudio} alt="Celebrated AI Audio & Video Creators" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                    <div style={{
+                        width: '100%',
+                        maxWidth: '750px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src={aiaudio}
+                            alt="Celebrated AI Audio & Video Creators"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block'
+                            }}
+                        />
                     </div>
                 </div>
 
             </div>
+
+
             {/* Distinguished Graphic Designers */}
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px' }}>
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box'
+            }}>
+                <h3 style={{
+                    fontSize: '18px',
+                    fontFamily: "Anastasia",
+                    fontWeight: '900',
+                    color: '#b45309',
+                    letterSpacing: '1px',
+                    textTransform: 'uppercase',
+                    marginBottom: '20px'
+                }}>
                     We Invite: Distinguished Graphic Designers
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                    <img src={graphicdesigner} alt="Distinguished Graphic Designers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={graphicdesigner}
+                        alt="Distinguished Graphic Designers"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
                 </div>
             </div>
+
 
             {/* Distinguished Makeup Artists */}
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', marginTop: "70px" }}>
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box',
+                marginTop: '70px'
+            }}>
+                <h3 style={{
+                    fontSize: '18px',
+                    fontFamily: "Anastasia",
+                    fontWeight: '900',
+                    color: '#b45309',
+                    letterSpacing: '1px',
+                    textTransform: 'uppercase',
+                    marginBottom: '20px'
+                }}>
                     We Invite: Distinguished Makeup Artists
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                    <img src={makeup} alt="Distinguished Makeup Artists" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={makeup}
+                        alt="Distinguished Makeup Artists"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
                 </div>
             </div>
+
 
             {/* Musical Instrument Performers */}
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', marginTop: "70px" }}>
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box',
+                marginTop: '70px'
+            }}>
+                <h3 style={{
+                    fontSize: '18px',
+                    fontFamily: "Anastasia",
+                    fontWeight: '900',
+                    color: '#b45309',
+                    letterSpacing: '1px',
+                    textTransform: 'uppercase',
+                    marginBottom: '20px'
+                }}>
                     We Invite: Musical Instrument Performers
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                    <img src={performers} alt="Musical Instrument Performers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={performers}
+                        alt="Musical Instrument Performers"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
                 </div>
             </div>
+
 
             {/* Undiscovered Talents */}
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px', marginTop: "70px" }}>
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box',
+                marginTop: '70px'
+            }}>
+                <h3 style={{
+                    fontSize: '18px',
+                    fontFamily: "Anastasia",
+                    fontWeight: '900',
+                    color: '#b45309',
+                    letterSpacing: '1px',
+                    textTransform: 'uppercase',
+                    marginBottom: '8px'
+                }}>
                     We Invite: Undiscovered Talents
                 </h3>
-                <p style={{ fontSize: '12px', color: '#4b5563', marginBottom: '20px', fontStyle: 'italic' }}>
-                    (people who have never had an opportunity to sing, play instruments, act, or otherwise showcase their abilities)
+
+                <p style={{
+                    fontSize: '12px',
+                    color: '#4b5563',
+                    marginBottom: '20px',
+                    fontStyle: 'italic',
+                    lineHeight: '1.6'
+                }}>
+                    (people who have never had an opportunity to sing, play instruments,
+                    act, or otherwise showcase their abilities)
                 </p>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                    <img src={undiscovered} alt="Undiscovered Talents" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={undiscovered}
+                        alt="Undiscovered Talents"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
                 </div>
             </div>
 
-            {/* The Support of Newspapers, TV Channels, Radio Stations & Social Media Platforms */}
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginTop: "70px" }}>
-                    We Invite: The Support of Newspapers, TV Channels, Radio Stations & Social Media Platforms
+
+            {/* Media Support */}
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box',
+                marginTop: '70px'
+            }}>
+                <h3 style={{
+                    fontSize: '18px',
+                    fontFamily: "Anastasia",
+                    fontWeight: '900',
+                    color: '#b45309',
+                    letterSpacing: '1px',
+                    textTransform: 'uppercase',
+                    marginBottom: '20px',
+                    lineHeight: '1.5'
+                }}>
+                    We Invite: The Support of Newspapers, TV Channels,
+                    Radio Stations & Social Media Platforms
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '10px' }}>
-                    <img src={newspaper} alt="Media Support" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={newspaper}
+                        alt="Media Support"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
                 </div>
             </div>
+
 
             {/* Volunteers or Coordinators */}
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '20px', marginTop: '80px' }}>
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box',
+                marginTop: '80px'
+            }}>
+                <h3 style={{
+                    fontSize: '18px',
+                    fontFamily: "Anastasia",
+                    fontWeight: '900',
+                    color: '#b45309',
+                    letterSpacing: '1px',
+                    textTransform: 'uppercase',
+                    marginBottom: '20px'
+                }}>
                     We Invite: Volunteers or Coordinators
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
-                    <img src={volunteers} alt="Volunteers or Coordinators" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={volunteers}
+                        alt="Volunteers or Coordinators"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
                 </div>
             </div>
+
 
             {/* Dedicated Web Designers & Developers */}
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '18px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginTop: "70px" }}>
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box',
+                marginTop: '70px'
+            }}>
+                <h3 style={{
+                    fontSize: '18px',
+                    fontFamily: "Anastasia",
+                    fontWeight: '900',
+                    color: '#b45309',
+                    letterSpacing: '1px',
+                    textTransform: 'uppercase',
+                    marginBottom: '20px',
+                    lineHeight: '1.5'
+                }}>
                     We Invite: Dedicated Web Designers & Developers
                 </h3>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '10px', marginBottom: '40px' }}>
-                    <img src={webdesigner} alt="Dedicated Web Designers & Developers" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-                </div>
-            </div>
-            {/* Final Closing Banner Image */}
-            <div style={{ textAlign: 'center' }}>
-                <div style={{ maxWidth: '750px', height: '400px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '80px', marginBottom: '40px' }}>
-                    <img src={ministers} alt="The Universal Royal Law of Love Closing" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={webdesigner}
+                        alt="Dedicated Web Designers & Developers"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
                 </div>
             </div>
 
+
+            {/* Final Closing Banner Image */}
+            <div style={{
+                width: '100%',
+                textAlign: 'center',
+                padding: '0 20px',
+                boxSizing: 'border-box',
+                marginTop: '80px',
+                marginBottom: '40px'
+            }}>
+                <div style={{
+                    width: '100%',
+                    maxWidth: '750px',
+                    margin: '0 auto',
+                    borderRadius: '16px',
+                    overflow: 'hidden',
+                    border: '1px solid #d1d5db',
+                    backgroundColor: '#f3f4f6',
+                    boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
+                }}>
+                    <img
+                        src={ministers}
+                        alt="The Universal Royal Law of Love Closing"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block'
+                        }}
+                    />
+                </div>
+            </div>
         </div>
     );
 };

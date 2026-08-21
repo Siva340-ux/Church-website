@@ -1,14 +1,26 @@
 import heroBgImage from '../assets/backdrop-cloud.png';
 export default function Backdrop({ title }) {
     return <div>
-        <div style={{
+        {/* <div style={{
             backgroundImage: `url(${heroBgImage})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             padding: '70px 20px',
             textAlign: 'center',
-            position: 'relative'
-        }}>
+            position: 'relative',
+
+        }}> */}
+        <div
+            className="backdrop"
+            style={{
+                backgroundImage: `url(${heroBgImage})`,
+                backgroundPosition: 'center',
+                backgroundRepeat: 'repeat-y',
+                padding: '70px 20px',
+                textAlign: 'center',
+                position: 'relative',
+            }}
+        >
             <div style={{
                 position: 'absolute',
                 top: 0,
@@ -33,3 +45,4 @@ export default function Backdrop({ title }) {
         </div>
     </div>
 }
+

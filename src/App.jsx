@@ -4,7 +4,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 // Import all your page components
-import ProducerAlbum from './pages/ProducerAlbum';
+// import ProducerAlbum from './pages/ProducerAlbum';
+import ProducerAlbum from './pages/ProducerAlbum_responsive';
 import PresentCondition from './pages/PresentCondition';
 import Highlights from './pages/Highlights';
 import WhyNeeded from './pages/WhyNeeded';

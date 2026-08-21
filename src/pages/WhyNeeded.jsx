@@ -55,7 +55,7 @@ const WhyNeeded = () => {
                 </h2>
 
                 {/* Introductory Paragraphs */}
-                <div style={{ maxWidth: '800px', margin: '0 auto 40px auto', fontSize: '15px', lineHeight: '1.6', color: '#374151', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div style={{ maxWidth: '900px', margin: '0 auto 40px auto', fontSize: '15px', lineHeight: '1.6', color: '#374151', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                     <p>
                         In an age marked by confusion, moral decline, and spiritual emptiness, the need for truth, guidance, and restoration has never been greater. Humanity is searching for meaning, peace, and direction—but often in the wrong places.
                     </p>
@@ -65,18 +65,58 @@ const WhyNeeded = () => {
                 </div>
 
                 {/* Main Feature Image Container */}
-                <div style={{ maxWidth: '850px', height: '480px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}>
+                {/* Law Image 1 */}
+                <div
+                    style={{
+                        width: '100%',
+                        maxWidth: '850px',
+                        margin: '0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        boxSizing: 'border-box',
+                    }}
+                >
                     <img
                         src={law}
                         alt="Setting the Words of the Law to Music"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block',
+                        }}
                     />
                 </div>
-                <div style={{ maxWidth: '850px', height: '480px', margin: '0 auto', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)', marginTop: '80px' }}>
+
+
+                {/* Law Image 2 */}
+                <div
+                    style={{
+                        width: '100%',
+                        maxWidth: '850px',
+                        margin: '80px auto 0 auto',
+                        borderRadius: '16px',
+                        overflow: 'hidden',
+                        border: '1px solid #d1d5db',
+                        backgroundColor: '#f3f4f6',
+                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                        boxSizing: 'border-box',
+                    }}
+                >
                     <img
                         src={law2}
                         alt="Setting the Words of the Law to Music"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            maxWidth: '100%',
+                            objectFit: 'contain',
+                            display: 'block',
+                        }}
                     />
                 </div>
             </div>
@@ -84,44 +124,197 @@ const WhyNeeded = () => {
 
 
             {/* 7. The Power of Music to Shape Lives */}
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px' }}>
-                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '40px', flexWrap: 'wrap' }}>
-                    <div style={{ flex: '1 1 440px', maxWidth: '443px', height: '296px', borderRadius: '12px', overflow: 'hidden', border: '1px solid #d1d5db', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f3f4f6' }}>
+            <div
+                style={{
+                    width: '100%',
+                    maxWidth: '1000px',
+                    margin: '0 auto',
+                    padding: '0 20px 80px 20px',
+                    boxSizing: 'border-box',
+                }}
+            >
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        alignItems: 'flex-start',
+                        gap: '40px',
+                        flexWrap: 'wrap',
+                        width: '100%',
+                    }}
+                >
+
+                    {/* Image */}
+                    <div
+                        style={{
+                            flex: '1 1 440px',
+                            width: '100%',
+                            maxWidth: '443px',
+                            borderRadius: '12px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            backgroundColor: '#f3f4f6',
+                            boxSizing: 'border-box',
+                        }}
+                    >
                         <img
                             src={power}
                             alt="The Power of Music to Shape Lives"
-                            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block',
+                            }}
                         />
                     </div>
-                    <div style={{ flex: '1 1 450px' }}>
-                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', textTransform: 'uppercase', fontFamily: "Anastasia" }}>
+
+                    {/* Content */}
+                    <div
+                        style={{
+                            flex: '1 1 450px',
+                            minWidth: 0,
+                            width: '100%',
+                        }}
+                    >
+                        <h3
+                            style={{
+                                fontSize: '22px',
+                                fontWeight: '900',
+                                color: '#b45309',
+                                letterSpacing: '1px',
+                                marginBottom: '15px',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Anastasia',
+                                lineHeight: '1.3',
+                            }}
+                        >
                             The Power of Music to Shape Lives
                         </h3>
-                        <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '15px' }}>
-                            Throughout history, music has played a vital role in teaching, healing, and transforming hearts.
+
+                        <p
+                            style={{
+                                fontSize: '13px',
+                                color: '#374151',
+                                lineHeight: '1.8',
+                                marginBottom: '15px',
+                            }}
+                        >
+                            Throughout history, music has played a vital role in teaching,
+                            healing, and transforming hearts.
                         </p>
-                        <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '20px' }}>
-                            In the experience of Israel, songs were used to preserve truth, strengthen faith, and unite people. As they journeyed through the wilderness, God's commandments, promises, and mighty works were expressed through music—helping people remember, reflect, and remain faithful.
+
+                        <p
+                            style={{
+                                fontSize: '13px',
+                                color: '#374151',
+                                lineHeight: '1.8',
+                                marginBottom: '20px',
+                            }}
+                        >
+                            In the experience of Israel, songs were used to preserve truth,
+                            strengthen faith, and unite people. As they journeyed through
+                            the wilderness, God's commandments, promises, and mighty works
+                            were expressed through music—helping people remember, reflect,
+                            and remain faithful.
                         </p>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
+
+                        {/* Points */}
+                        <div
+                            style={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '10px',
+                            }}
+                        >
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
                                 <span>Music fixed divine truths in the mind</span>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
+
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
                                 <span>It uplifted hearts during trials and difficulties</span>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
+
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
                                 <span>It brought unity, order, and spiritual connection</span>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
+
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
                                 <span>It strengthened faith and trust in God</span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -149,44 +342,202 @@ const WhyNeeded = () => {
                 </div>
             </div>
             {/* <Power /> */}
-            <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 20px 80px 20px' }}>
-                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '40px', flexWrap: 'wrap' }}>
-                    <div style={{ flex: '1 1 440px', maxWidth: '443px', height: '296px', borderRadius: '12px', overflow: 'hidden', border: '1px solid #d1d5db', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f3f4f6' }}>
+            <div
+                style={{
+                    width: '100%',
+                    maxWidth: '1000px',
+                    margin: '0 auto',
+                    padding: '0 20px 80px 20px',
+                    boxSizing: 'border-box',
+                }}
+            >
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        alignItems: 'flex-start',
+                        gap: '40px',
+                        flexWrap: 'wrap',
+                        width: '100%',
+                    }}
+                >
+                    {/* Image */}
+                    <div
+                        style={{
+                            flex: '1 1 440px',
+                            width: '100%',
+                            maxWidth: '443px',
+                            borderRadius: '12px',
+                            overflow: 'hidden',
+                            border: '1px solid #d1d5db',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            backgroundColor: '#f3f4f6',
+                            boxSizing: 'border-box',
+                        }}
+                    >
                         <img
                             src={power2}
                             alt="The Power of Music to Shape Lives"
-                            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxWidth: '100%',
+                                objectFit: 'contain',
+                                display: 'block',
+                            }}
                         />
                     </div>
-                    <div style={{ flex: '1 1 450px' }}>
-                        <h3 style={{ fontSize: '22px', fontWeight: '900', color: '#b45309', letterSpacing: '1px', marginBottom: '15px', textTransform: 'uppercase', fontFamily: "Anastasia" }}>
+
+                    {/* Content */}
+                    <div
+                        style={{
+                            flex: '1 1 450px',
+                            width: '100%',
+                            minWidth: 0,
+                        }}
+                    >
+                        <h3
+                            style={{
+                                fontSize: '22px',
+                                fontWeight: '900',
+                                color: '#b45309',
+                                letterSpacing: '1px',
+                                marginBottom: '15px',
+                                textTransform: 'uppercase',
+                                fontFamily: 'Anastasia',
+                                lineHeight: '1.3',
+                            }}
+                        >
                             The Power of Music to Shape Lives
                         </h3>
-                        <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '15px' }}>
-                            Throughout history, music has played a vital role in teaching, healing, and transforming hearts.
+
+                        <p
+                            style={{
+                                fontSize: '13px',
+                                color: '#374151',
+                                lineHeight: '1.8',
+                                marginBottom: '15px',
+                            }}
+                        >
+                            Throughout history, music has played a vital role in teaching,
+                            healing, and transforming hearts.
                         </p>
-                        <p style={{ fontSize: '13px', color: '#374151', lineHeight: '1.8', marginBottom: '20px' }}>
-                            In the experience of Israel, songs were used to preserve truth, strengthen faith, and unite people. As they journeyed through the wilderness, God's commandments, promises, and mighty works were expressed through music—helping people remember, reflect, and remain faithful.
+
+                        <p
+                            style={{
+                                fontSize: '13px',
+                                color: '#374151',
+                                lineHeight: '1.8',
+                                marginBottom: '20px',
+                            }}
+                        >
+                            In the experience of Israel, songs were used to preserve truth,
+                            strengthen faith, and unite people. As they journeyed through
+                            the wilderness, God's commandments, promises, and mighty works
+                            were expressed through music—helping people remember, reflect,
+                            and remain faithful.
                         </p>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
+
+                        {/* Points */}
+                        <div
+                            style={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                gap: '10px',
+                            }}
+                        >
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
                                 <span>Music fixed divine truths in the mind</span>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
-                                <span>It uplifted hearts during trials and difficulties</span>
+
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
+                                <span>
+                                    It uplifted hearts during trials and difficulties
+                                </span>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
-                                <span>It brought unity, order, and spiritual connection</span>
+
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
+                                <span>
+                                    It brought unity, order, and spiritual connection
+                                </span>
                             </div>
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '13px', color: '#374151' }}>
-                                <span style={{ color: '#d97706', fontWeight: 'bold' }}>&#10003;</span>
-                                <span>It strengthened faith and trust in God</span>
+
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    gap: '10px',
+                                    fontSize: '13px',
+                                    color: '#374151',
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: '#d97706',
+                                        fontWeight: 'bold',
+                                        flexShrink: 0,
+                                    }}
+                                >
+                                    &#10003;
+                                </span>
+                                <span>
+                                    It strengthened faith and trust in God
+                                </span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -195,36 +546,81 @@ const WhyNeeded = () => {
                 <h3 style={{ fontSize: '22px', fontFamily: "Anastasia", fontWeight: '900', color: '#b45309', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
                     The Universal Royal Law of Love
                 </h3>
-                <p style={{ fontSize: '12px', color: '#4b5563', marginBottom: '40px', fontStyle: 'italic' }}>
+                <p style={{ fontSize: '12px', color: '#4b5563', marginBottom: '10px', fontStyle: 'italic' }}>
                     (A picture tells the story, the purpose, and the message in a single glance.)
                 </p>
 
 
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
-                {imagesList.reduce((rows, image, index) => {
-                    if (index % 2 === 0) {
-                        rows.push([image]);
-                    } else {
-                        rows[rows.length - 1].push(image);
-                    }
-                    return rows;
-                }, []).map((pair, rowIndex) => (
-                    <div key={rowIndex} style={{ display: 'flex', justifyContent: 'center', gap: '45px', flexWrap: 'wrap' }}>
-                        {pair.map((item, idx) => (
-                            <div
-                                key={idx}
-                                style={{ flex: '1 1 450px', maxWidth: '460px', height: '280px', borderRadius: '16px', overflow: 'hidden', border: '1px solid #d1d5db', backgroundColor: '#f3f4f6', boxShadow: '0 10px 20px rgba(0,0,0,0.1)' }}
-                            >
-                                <img
-                                    src={typeof item === 'string' ? item : item?.imageUrl}
-                                    alt={typeof item === 'string' ? `Love Image ${rowIndex * 2 + idx + 1}` : item?.altText}
-                                    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                                />
-                            </div>
-                        ))}
-                    </div>
-                ))}
+            <div
+                style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '30px',
+                    width: '100%',
+                    boxSizing: 'border-box',
+                }}
+            >
+                {imagesList
+                    .reduce((rows, image, index) => {
+                        if (index % 2 === 0) {
+                            rows.push([image]);
+                        } else {
+                            rows[rows.length - 1].push(image);
+                        }
+                        return rows;
+                    }, [])
+                    .map((pair, rowIndex) => (
+                        <div
+                            key={rowIndex}
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'flex-start',
+                                gap: '45px',
+                                flexWrap: 'wrap',
+                                width: '100%',
+                                boxSizing: 'border-box',
+                            }}
+                        >
+                            {pair.map((item, idx) => (
+                                <div
+                                    key={idx}
+                                    style={{
+                                        flex: '1 1 400px',
+                                        width: '100%',
+                                        maxWidth: '460px',
+                                        borderRadius: '16px',
+                                        overflow: 'hidden',
+                                        border: '1px solid #d1d5db',
+                                        backgroundColor: '#f3f4f6',
+                                        boxShadow: '0 10px 20px rgba(0,0,0,0.1)',
+                                        boxSizing: 'border-box',
+                                    }}
+                                >
+                                    <img
+                                        src={
+                                            typeof item === 'string'
+                                                ? item
+                                                : item?.imageUrl
+                                        }
+                                        alt={
+                                            typeof item === 'string'
+                                                ? `Love Image ${rowIndex * 2 + idx + 1}`
+                                                : item?.altText
+                                        }
+                                        style={{
+                                            width: '100%',
+                                            height: 'auto',
+                                            maxWidth: '100%',
+                                            objectFit: 'contain',
+                                            display: 'block',
+                                        }}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    ))}
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '45px', flexWrap: 'wrap', marginTop: "40px" }}>
                 <img src={songs} alt="" style={{ width: '40%', height: '40%', objectFit: 'cover', display: 'block' }} />
